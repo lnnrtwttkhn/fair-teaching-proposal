@@ -25,3 +25,30 @@ Skills in version control are relevant in all fields where digital data is proce
 The teaching content and practical exercises are also cross-disciplinary and transferable to other study programs.
 The publication of all teaching materials as Open Educational Resources allows independent reuse and development (see teaching concept).
 
+## Teaching Concept
+
+The didactic teaching concept consists of a seminar (2 teaching hours per week) with lectures by the instructors (30-50%) and practical exercises (50-70%).
+The lectures provide theoretical foundations (e.g., reproducibility, open code, open data) and transition into interactive demonstrations of Git ("code-along").
+These teaching formats are complemented by supervised exercises in small groups, which continue outside the class.
+The courses are accompanied by continuous evaluation and self-assessment quiz questions, implemented in LimeSurvey and supervised by a student assistant.
+Evaluation data and quiz responses are stored anonymously and reused within the course as exemplary datasets.
+All software tools used are open-source, freely available, compatible with all operating systems (macOS, Linux, Windows), and mostly provided by the University of Hamburg.
+
+As Git and DataLad were primarily developed for command-line usage, the teaching concept also focuses on interaction with the command line.
+The command line is a part of a computer program that takes a text line as input and interprets it as a command in context.
+In the initial teaching units, basic command line commands are demonstrated and practiced in joint exercises.
+Graphical user interfaces (GUIs) are also available as an alternative to the command line.
+GitKraken or GitHub Desktop are used as the GUIs for Git, available in a free Pro version for students through the GitHub Student Developer Pack.
+Digital technologies such as Jupyter Notebooks and Quarto are primarily used for creating teaching materials (project website, presentations, practical exercises).
+Git can also be used within a Jupyter Notebook.
+To prevent potential issues with software installation, Jupyter Notebooks allow interaction within prepared computational environments provided through Jupyter-Hub at the University of Hamburg or Binder, accessible through a web browser.
+
+All teaching materials are published as Open Educational Resources, including the project website, under a CC BY-SA 4.0 license.
+Discoverability and citability of teaching materials are ensured through persistent identifiers on the Zenodo platform.
+The courses are conducted in an online teaching-learning setting using Zoom.
+Technical issues can be addressed simultaneously in "Breakout-Rooms" through Zoom with the tutor.
+Communication outside the classes can take place through the GitHub platform.
+Basic programming skills are advantageous for the course but are not mandatory.
+The introduction to all utilized software technologies is part of the course.
+The applicants have extensive experience in using all mentioned software tools in research and teaching.
+The contents of this proposal are documented in Jupyter Notebooks and available through the project website.
