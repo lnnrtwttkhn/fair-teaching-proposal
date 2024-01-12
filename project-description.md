@@ -1,3 +1,7 @@
+# Project Description
+
+## Course Content
+
 The digital objects on our computers are in constant flux.
 Manuscripts, programming code, and research data undergo continuous and often collaborative changes over extended periods of time.
 The systematic documentation of these changes forms the basis for controlled and reproducible work on digital objects.
