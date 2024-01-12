@@ -6,6 +6,8 @@ https://www.uni-hamburg.de/en/internationales/mitarbeitende/mitarbeitende-wissen
 
 ## Contents
 
-### `project-description.md`
+### [`application-form.md`](application-form.md)
+
+### [`project-description.md`](project-description.md)
 
 > a description of the project, esp. learning objectives and promotion of student cooperation and exchange at the participating partner universities;
