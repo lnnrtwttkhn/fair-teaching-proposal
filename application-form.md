@@ -7,7 +7,7 @@
 > In addition to imparting subject-related knowledge, virtual exchange among students and researchers from the partner university must be the primary goal.
 
 - learn about version control
-- increase digital and dat a literacy in students
+- increase digital and data literacy in students
 - foster exchange among students and researchers from the partner university
 
 ### Partner University
@@ -29,18 +29,18 @@ Together, Dr. Martinovici and the Erasmus University Rotterdam are ideal partner
 
 Given Dr. Martinovici's extensive experience in teaching version control with Git and GitHub, she will contribute to the content-related development of the course materials.
 Her expertise will allow to fill current gaps in the course materials and to adapt the course to the needs of students from the Erasmus University Rotterdam.
-Specifically, content-related contributions may include topics such as version control of large datasets, automation with Makefiles, and data protection and privcacy.
+Specifically, content-related contributions may include topics such as version control of large datasets, automation with Makefiles, and data protection and privacy.
 Financial contributions by the partner university are planned for the future once the course is established and could, for example, be supported by teaching assistants from the Erasmus University Rotterdam.
 
 ### Intercultural experience
 
 > How will you help students gain intercultural experience in addition to subject-specific knowledge through the courses on offer?
 
-Fundamentally, Git and GitHub are not ony tools for version control but also critical for effective collaboration on digital objects.
+Fundamentally, Git and GitHub are not only tools for version control but also critical for effective collaboration on digital objects.
 While they are domain-agnostic, we will use examples that aim at stimulating intercultural exchange between students and researchers from the partner universities.
 For example, as part of the course exercises students will be asked to contribute to a repository that is hosted on GitHub and that is used by students from both universities.
 This will allow students to learn about version control and collaboration while also interacting with students from the partner university.
-In doing so, students might exchange about their field of study, student life in their respective cities, or other topics of mutual interest that allow them to gain intercultural experience.
+In doing so, students might exchange information about their field of study, student life in their respective cities, or other topics of mutual interest that allow them to gain intercultural experience.
 
 ### Embedding in the curriculum
 
@@ -50,5 +50,7 @@ At Universität Hamburg, the course has taken place for the first time as an in-
 The course is planned to be embedded regularly in the curriculum and offered each winter term.
 An additional offering of the course as part of the PhD graduate school of the Institute of Psychology is currently being discussed.
 Both course formats could regularly be offered international virtual learning and teaching formats for the long term.
-Similarly on the side of the Erausmus University Rotterdam, the course could be offered regularly as part of the master's program in marketing and the PhD graduate school of the Rotterdam School of Management.
+Similarly on the side of the Erausmus University Rotterdam, the course could be offered to ERIM PhD students. 
+ERIM (Erasmus Research Institute of Management) is a joint research institute of Rotterdam School of Management, Erasmus University (RSM) and the Erasmus School of Economics (ESE).
+Via the Open Science Community Rotterdam the course will also be promoted to PhD students at other EUR research institutes, thus reaching a diverse set of research fields including psychology and medicine.
 The ILLF@home program will provide the necessary support to establish an international virtual learning and teaching format that can be embedded regularly in the curricula of both partner universities.
