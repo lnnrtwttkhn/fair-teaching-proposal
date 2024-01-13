@@ -3,23 +3,25 @@
 ### Short Project Description
 
 In an international and virtual course with collaborative hands-on exercises, students from Universität Hamburg and Erasmus University Rotterdam will learn "Version Control of Code and Data with Git."
-Version control is the notebook for a digital world, and Git is perhaps the most well-known version control system.
+Version control is as a fundamental tool for managing digital content, with Git standing out as one of the most widely recognized version control systems.
+Its importance goes beyond general use, proving valuable in academia by offering an organized and systematic approach to tracking and managing changes in scholarly work.
 Git and GitHub provide precise documentation of changes, support revision and comparison of versions, allow simultaneous collaboration on files, and facilitate effective collaboration through transparent sharing, viewing, and collaborative development of code and data.
-The course will be based on existing learning materials of a course, previously supported by the Digital & Data Literacy in Teaching Lab program and currently taught as an in-person seminar at Universität Hamburg, and adapted for  an international and virtual learning environment with the support of the ILLF@home program.
+The course will be based on existing learning materials of a course, previously supported by the Digital & Data Literacy in Teaching Lab program and currently taught as an in-person seminar at Universität Hamburg.
+With the support of the ILLF@home program, the course will be adapted for an international and virtual learning environment.
 
 ### Project Goals
 
 > In addition to imparting subject-related knowledge, virtual exchange among students and researchers from the partner university must be the primary goal.
 
-This course aims to teach students the fundamentals of version control using Git, emphasizing precise documentation of changes in digital objects, collaborative work, and effective use of platforms like GitHub or GitLab.
+This course aims to teach students the fundamentals of version control using Git, with a focus on precise documentation of changes in digital objects, collaborative work, and effective use of platforms like GitHub or GitLab.
 It integrates practical exercises to enhance skills in code and data management, aligning with the broader goals of promoting transparency, accessibility, and verifiability of knowledge in science and society.
 Additionally, the course covers theoretical concepts in open science and reproducibility fostering a reflective engagement with digital and data-driven processes and enhancing students' employability in research, data analysis, and other sectors requiring digital competences.
 
-Beyond these subject-related goals, the course aims to promote virtual exchange among students and researchers from the two partner universities
+Beyond these subject-related goals, the course aims to foster virtual exchange among students and researchers from the two partner universities
 Through collaborative learning and practical exercises, students engage in shared projects, encouraging active participation and the exchange of diverse perspectives.
 Using online platforms like GitHub or GitLab for collaborative development not only facilitates real-time interactions but also provides a space for continuous communication.
 Virtual discussions, joint problem-solving sessions, and collaborative coding exercises allow students to learn from each other's experiences, practices, and cultural backgrounds.
-This international teaching collaboration therefore not only enhances technical proficiency in version control using Git but also promotes a rich exchange of ideas among students and researchers from the partner universities.
+This international teaching collaboration, therefore, not only enhances technical proficiency in version control using Git but also promotes a rich exchange of ideas among students and researchers from the partner universities.
 
 ### Partner University
 
@@ -28,11 +30,11 @@ This international teaching collaboration therefore not only enhances technical 
 The Erasmus University Rotterdam (EUR) is one of the profile partner universities of the Universität Hamburg (UHH).
 The student target group of the proposed course come from diverse study programs, including psychology, marketing, neuro-marketing and medicine.
 The EUR is at the forefront of the Open Science movement, promoting transparency, collaboration, and responsible research practices.
-For example, in August 2023, EUR hosted the Netherlands's National Open Science Festival with 400 visitors.
-Git and GitHub are tools that allow students and researchers to put principles of open science into practice, and is in high demand in EUR's research community.
+For example, in August 2023, EUR hosted the Netherlands's National Open Science Festival, attracting 400 visitors.
+Git and GitHub are tools that allow students and researchers to put principles of open science into practice, and they are in high demand within EUR's research and student community.
 Dr. Martinovici is an Assistant Professor of Marketing at the Rotterdam School of Management at the Erasmus University Rotterdam.
 Beyond implementing principles of open and reproducible science in her own research, she has taught several workshops on version control with Git and GitHub, for example at the renowned conference of the Society for the Improvement of Psychological Science (SIPS).
-Together, Dr. Martinovici and the Erasmus University Rotterdam are ideal partners for the proposed project as part of the ILLF@home program.
+Together, Dr. Martinovici and Erasmus University Rotterdam present an ideal partnership for the proposed project under the ILLF@home program.
 
 ### Contributions
 
