@@ -1,5 +1,7 @@
 # Project Description
 
+> a description of the project, esp. learning objectives and promotion of student cooperation and exchange at the participating partner universities; 
+
 ## Course Content
 
 The digital objects on our computers are in constant flux.
