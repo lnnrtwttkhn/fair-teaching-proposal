@@ -23,7 +23,7 @@ dt_print <- copy(dt) %>% .[, Justification := NULL]
 knitr::kable(dt_print, format = "markdown", row.names = TRUE)
 ```
 
-**Sum of total costs:** `r as.character(round(sum(dt$Costs), 2))` Euro.
+**Sum of total costs:** `r as.character(round(sum(dt$Costs), 2))` Euro ~ `r as.character(round(sum(dt$Costs), -1))` Euro.
 
 ## Justification
 
