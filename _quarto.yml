@@ -30,13 +30,17 @@ author:
   attributes:
     corresponding: false
   affiliations:
-    - ref:  eur-rsm
+    - ref: eur-rsm
+    
+metadata-files:
+  - _affiliations.yml
+  - _costs.yml
+
 format:
   html:
     theme: [cosmo]
     anchor-sections: true
     smooth-scroll: true
-    html-math-method: katex
     email-obfuscation: none
     toc: true
     toc-depth: 3
@@ -48,8 +52,7 @@ format:
     fig-cap-location: margin
     tbl-cap-location: margin
     page-layout: article
-    code-fold: show
-    code-summary: "Show the code"
+    code-fold: true
     code-overflow: wrap
     code-line-numbers: true
     code-copy: true
@@ -59,13 +62,12 @@ format:
       source: https://github.com/lnnrtwttkhn/illf-application
       toggle: true
       caption: "Code"
+    engine: knitr
     highlight-style: monokai
-    execute:
-      eval: false
     link-external-icon: false
     link-external-newwindow: true
     from: "markdown+emoji"
     search: false
     include-after-body: plausible.html
-    metadata-files:
-      - _affiliations.yml
+  pdf:
+    toc: false
