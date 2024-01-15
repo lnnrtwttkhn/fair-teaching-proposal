@@ -2,7 +2,7 @@ travel:
   Description: "Travel and accommodation for Lennart Wittkuhn for trip to Rotterdam to initiate project"
   Category: "Travel and accommodation"
   Duration: "2 days"
-  Costs: 350
+  Costs: 350.00
   Justification: |
     The travel costs for initiating the collaborative teaching project are justified as they enable essential face-to-face interactions with the collaborators at the partner university.
     This facilitates stronger interpersonal relationships, fostering effective communication and teamwork.
@@ -17,12 +17,12 @@ travel2:
     This in-person engagement allows the student research assistant to establish direct connections with team members, fostering effective communication and building a stronger working relationship.
     The opportunity for face-to-face interactions ensures a shared understanding of project goals and methodologies, enabling the student research assistant to work more efficiently and collaboratively in later stages.
     Additionally, participating in the initial meetings and discussions enhances the student research assistant's overall contribution, promoting a more integrated and cohesive team dynamic for the duration of the project.
-  Costs: 350
+  Costs: 350.00
 ra:
   Description: "Student Research Assistant (MSc level) for 40 hours / month"
   Category: "HR costs"
   Duration: "01.04.2024 to 31.03.2025"
-  Costs: 9060.90
+  Costs: 9428.34			
   Justification: |
     The student research assistant will help to adapt the existing learning materials to an international virtual learning setting.
     In addition, they will enrich the curriculum by adding additional content that caters to diverse learning styles and the virtual setting.
@@ -34,7 +34,7 @@ ta1:
   Description: "Student Teaching Assistant 1 (MSc level) for 2 SWS / month"
   Category: "HR costs"
   Duration: "14.10.24 to 01.02.25"
-  Costs: 2143.07
+  Costs: 2256.99	
   Justification: |
     In an online Git course, a teaching assistant (TA) is crucial for providing individualized support, timely feedback, and technical troubleshooting to students navigating the complexities of version control.  
     With the absence of in-person interaction, a TA becomes instrumental in facilitating discussions, fostering collaboration, and adapting to diverse learning styles.  
@@ -44,7 +44,7 @@ ta2:
   Description: "Student Teaching Assistant 2 (MSc level) for 2 SWS / month"
   Category: "HR costs"
   Duration: "14.10.24 to 01.02.25"
-  Costs: 2143.07
+  Costs: 2256.99
   Justification: |
     Introducing a second teaching assistant (TA) in an online Git course further enhances the learning experience by addressing the demands of the diverse course participants.
     The second TA can efficiently manage additional volume of inquiries, providing additional individualized support and timely feedback.
