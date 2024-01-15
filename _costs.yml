@@ -1,5 +1,5 @@
 travel:
-  Description: "Travel and accomodation for Lennart Wittkuhn for trip to initiate project"
+  Description: "Travel and accommodation for Lennart Wittkuhn for trip to initiate project"
   Category: "Travel and accommodation"
   Duration: "2 days"
   Costs: 300
@@ -9,7 +9,7 @@ travel:
     In-person engagement during the initiation phase is crucial for efficient planning, alignment of teaching methodologies, and the establishment of a shared vision for the project.
     The travel expenses contribute to a cohesive collaboration, enhancing the likelihood of project success and the delivery of high-quality educational outcomes.
 travel2:
-  Description: "Travel and accomodation for the Student Research Assistant for trip to initiate project"
+  Description: "Travel and accommodation for the Student Research Assistant for trip to initiate project"
   Category: "Travel and accommodation"
   Duration: "2 days"
   Justification: |
@@ -27,7 +27,7 @@ ra:
     The student research assistant will help to adapt the existing learning materials to an international virtual learning setting.
     In addition, they will enrich the curriculum by adding additional content that caters to diverse learning styles and the virtual setting.
     The preparation of surveys and quizzes by the assistant contributes to formative assessments, facilitating ongoing improvements to the course.
-    The student research assistant wil also analyze responses to online surveys, expected to provide valuable insights into the learning progress of students.
+    The student research assistant will also analyze responses to online surveys, expected to provide valuable insights into the learning progress of students.
     The student research assistant's role in analyzing web traffic (see note about website anaytics below) contributes to optimizing the online learning materials for accessibility and user experience.
     Finally, their involvement in preparing each teaching session ensures a seamless integration of the various learning resources, elevating the overall quality of the virtual learning experience for students.
 ta1:
