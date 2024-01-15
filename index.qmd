@@ -7,6 +7,6 @@ subtitle: "An international teaching collaboration between the Universität Hamb
 
 {{< include _project-description.md >}}
 
-{{< include _timetable.md >}}
+{{< include timetable.qmd >}}
 
 {{< include cost-justification.qmd >}}
