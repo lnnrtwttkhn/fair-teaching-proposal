@@ -4,9 +4,9 @@ subtitle: "An international teaching collaboration between the Universität Hamb
 ---
 
 {{< include _project-description.md >}}
-
+\newpage
 {{< include timetable.qmd >}}
-
+\newpage
 {{< include cost-justification.qmd >}}
-
+\newpage
 {{< include _application-form.md >}}
