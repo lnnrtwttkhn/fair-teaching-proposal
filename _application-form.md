@@ -6,8 +6,9 @@ In an international and virtual course with collaborative hands-on exercises, st
 Version control is as a fundamental approach for managing the evolution of digital objects, with Git standing out as one of the most widely recognized version control systems.
 Its importance goes beyond its wide application in professional software development, proving valuable in academia by offering an organized and systematic approach to tracking and managing changes in scholarly work.
 Git and the online platform GitHub provide precise documentation of changes, support revision and comparison of versions, allow simultaneous work on files, and facilitate effective collaboration through transparent sharing, viewing, and interactive development of digital objects, in particular code and data.
-The course will be based on existing learning materials of a course, previously supported by the Digital & Data Literacy in Teaching Lab program and currently taught as an in-person seminar at Universität Hamburg (https://lennartwittkuhn.com/version-control-course-uhh-ws23/).
+The course will be based on existing learning materials of a course, previously supported by the Digital & Data Literacy in Teaching Lab program and currently taught as an in-person seminar at Universität Hamburg (<https://lennartwittkuhn.com/version-control-course-uhh-ws23/>).
 With the support of the ILLF@home program, the course will be adapted for an international and virtual learning environment.
+The application documents can also be found on the project website at <https://lennartwittkuhn.com/https://lennartwittkuhn.com/illf-application/>
 
 ### Project Goals
 
