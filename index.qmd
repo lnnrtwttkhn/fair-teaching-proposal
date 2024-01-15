@@ -1,0 +1,12 @@
+---
+title: "Version Control of Code & Data with Git"
+subtitle: "An international teaching collaboration between the Universität Hamburg and Erasmus University Rotterdam (Application for the ILLF@home application)"
+---
+
+{{< include application-form.md >}}
+
+{{< include project-description.md >}}
+
+{{< include timetable.md >}}
+
+{{< include cost-justification.md >}}

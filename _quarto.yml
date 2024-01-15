@@ -1,0 +1,71 @@
+project:
+  type: website
+  output-dir: docs
+  preview:
+    port: 5800
+    browser: true
+    watch-inputs: true
+    navigate: true
+author:
+- id: wittkuhn
+  name:
+    given: Lennart
+    family: Wittkuhn
+    literal: Dr. Lennart Wittkuhn
+  url: https://lennartwittkuhn.com/
+  email: lennart.wittkuhn@uni-hamburg.de
+  orcid: 0000-0003-2966-6888
+  attributes:
+    corresponding: true
+  affiliations:
+    - ref: uhh-psych
+- id: martinovici
+  name:
+    given: Ana
+    family: Martinovici
+    literal: Dr. Ana Martinovici
+  url: www.anamartinovici.com
+  email: martinovici@rsm.nl
+  orcid: 0000-0003-1940-0293
+  attributes:
+    corresponding: false
+  affiliations:
+    - ref:  eur-rsm
+format:
+  html:
+    theme: [cosmo]
+    anchor-sections: true
+    smooth-scroll: true
+    html-math-method: katex
+    email-obfuscation: none
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    toc-title: "Contents"
+    toc-expand: true
+    number-sections: false
+    cap-location: margin
+    fig-cap-location: margin
+    tbl-cap-location: margin
+    page-layout: article
+    code-fold: show
+    code-summary: "Show the code"
+    code-overflow: wrap
+    code-line-numbers: true
+    code-copy: true
+    code-link: false
+    code-annotations: true
+    code-tools:
+      source: https://github.com/lnnrtwttkhn/illf-application
+      toggle: true
+      caption: "Code"
+    highlight-style: monokai
+    execute:
+      eval: false
+    link-external-icon: false
+    link-external-newwindow: true
+    from: "markdown+emoji"
+    search: false
+    include-after-body: plausible.html
+    metadata-files:
+      - _affiliations.yml
