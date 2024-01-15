@@ -1,7 +1,5 @@
 # Project Description
 
-> a description of the project, esp. learning objectives and promotion of student cooperation and exchange at the participating partner universities; 
-
 ## Course Content
 
 The digital objects on our computers are in constant flux.
@@ -17,7 +15,7 @@ Git also facilitates effective collaboration, as platforms like GitHub or GitLab
 Thus, version control contributes to making knowledge generated from data transparent, accessible, and verifiable.
 As an effective method for storing and processing code and data, version control represents a core competency of Data Literacy.
 
-In their studies, students in many research domains receive a multifaceted education in research methodology, statistics, and scientific work.
+In their studies, students in many research domains receive a multifaceted education in research methodology, statistics, and principles of responsible scientific work.
 The current teaching concept complements practical skills in the effective management of programming code and research data.
 The acquired skills are particularly applicable in empirical dissertation projects.
 Discussing concepts such as reproducibility, open code, and open data supports understanding of principles of good scientific practice.
@@ -27,7 +25,7 @@ Since version control is a standard in professional software development, the em
 In addition to these practical competencies, students are taught theoretical concepts in the areas of open science, open code, open data, and open source.
 This enables a reflective engagement with increasingly digital and data-driven economic and societal processes, promoting participatory self-empowered citizenship.
 
-The continuation of the teaching concept at the University of Hamburg, especially in a newly established research-oriented master's program and a graduate school for doctora students, is anticipated.
+The continuation of the teaching concept at the University of Hamburg, especially in a newly established research-oriented master's program and a graduate school for doctoral students, is anticipated.
 Skills in version control are relevant in all fields where digital data is processed.
 The teaching content and practical exercises are also cross-disciplinary and transferable to other study programs.
 The publication of all teaching materials as Open Educational Resources allows independent reuse and development (see [teaching concept](#teaching-concept)).
@@ -36,7 +34,7 @@ The publication of all teaching materials as Open Educational Resources allows i
 
 The didactic teaching concept consists of a seminar (2 teaching hours per week) with lectures by the instructors (20%) and practical collaborative hands-on exercises (80%).
 The lectures provide theoretical foundations (e.g., reproducibility, open code, open data) and transition into interactive demonstrations of Git ("code-along").
-These teaching formats are complemented by supervised exercises in small groups or paris, which may continue outside class time.
+These teaching formats are complemented by supervised exercises in small groups or pairs, which may continue outside of class time.
 The courses are accompanied by continuous evaluation and self-assessment quiz questions, implemented in [formR](https://formr.org/) and supervised by a student assistant.
 Evaluation data and quiz responses are stored anonymously and reused within the course as exemplary datasets.
 All software tools used are open-source, freely available, compatible with all operating systems (macOS, Linux, Windows), and mostly provided by the University of Hamburg and the partner university, Erasmus University Rotterdam.
