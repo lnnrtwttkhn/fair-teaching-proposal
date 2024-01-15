@@ -1,0 +1,25 @@
+---
+engine: knitr
+---
+
+# Timetable
+
+- **Project period:** 01.04.2024 to 31.03.2025
+- **Course delivery:** 14.10.2024 to 01.02.2025 (winter term)
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE)
+library("magrittr")
+library("data.table")
+library("knitr")
+```
+
+```{r}
+yaml_data <- yaml::read_yaml("_timetable.yml")
+df <- tibble::enframe(yaml_data, name = "Month", value = "Step") %>%
+  tidyr::unnest(cols = Step)
+df_wide <- df %>%
+  tidyr::pivot_wider(names_from = Month, id_cols = Step, values_from = Month) %>%
+  replace(., is.na(.), " ")
+knitr::kable(df_wide, format = "markdown", row.names = FALSE)
+```

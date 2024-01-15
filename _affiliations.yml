@@ -1,0 +1,18 @@
+affiliations:
+  - id: uhh-psych
+    name: "Institute of Psychology, University of Hamburg, Germany"
+    department: "Chair of Cognitive Neuroscience, in particular Mechanisms of Learning and Change"
+    address: "Von-Melle-Park 5"
+    city: "Hamburg"
+    region: "Hamburg"
+    country: "Germany"
+    postal-code: "20149"
+    url: "https://www.psy.uni-hamburg.de/en.html"
+  - id: eur-rsm
+    name: "Rotterdam School of Management, Erasmus University Rotterdam, Netherlands"
+    department: "Marketing Management"
+    address: "Burgemeester Oudlaan 50"
+    city: "Rotterdam"
+    country: "Netherlands"
+    postal-code: "3062 PA"
+    url: "https://www.rsm.nl/faculty-research/departments/marketing-management/"

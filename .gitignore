@@ -1,0 +1,7 @@
+*.pdf
+.Rproj.user
+/.quarto/
+/docs/
+*.docx
+.Rhistory
+*.xltx
