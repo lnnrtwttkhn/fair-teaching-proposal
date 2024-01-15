@@ -30,6 +30,6 @@ knitr::kable(dt_print, format = "markdown", row.names = TRUE)
 ```{r}
 #| output: asis
 for (i in seq(nrow(dt))) {
-  cat(sprintf("**Regarding %i**: %s\n\n", i, dt$Justification[i]))
+  cat(sprintf("**Regarding %i (%s):** %s\n\n", i, dt$Description[i], dt$Justification[i]))
 }
 ```
