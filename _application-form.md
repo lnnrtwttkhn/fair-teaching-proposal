@@ -6,7 +6,7 @@ In an international and virtual course with collaborative hands-on exercises, st
 Version control is as a fundamental approach for managing the evolution of digital objects, with Git standing out as one of the most widely recognized version control systems.
 Its importance goes beyond its wide application in professional software development, proving valuable in academia by offering an organized and systematic approach to tracking and managing changes in scholarly work.
 Git and the online platform GitHub provide precise documentation of changes, support revision and comparison of versions, allow simultaneous work on files, and facilitate effective collaboration through transparent sharing, viewing, and interactive development of digital objects, in particular code and data.
-The course will be based on existing learning materials of a course, previously supported by the Digital & Data Literacy in Teaching Lab program and currently taught as an in-person seminar at Universität Hamburg.
+The course will be based on existing learning materials of a course, previously supported by the Digital & Data Literacy in Teaching Lab program and currently taught as an in-person seminar at Universität Hamburg (https://lennartwittkuhn.com/version-control-course-uhh-ws23/).
 With the support of the ILLF@home program, the course will be adapted for an international and virtual learning environment.
 
 ### Project Goals
@@ -20,6 +20,7 @@ Additionally, the course covers theoretical concepts in open science and reprodu
 Beyond these subject-related goals, the course aims to foster virtual exchange among students and researchers from the two partner universities.
 Through collaborative learning and practical exercises, students engage in shared projects, encouraging active participation and the exchange of diverse perspectives.
 Using online platforms like GitHub for collaborative development not only facilitates real-time interactions but also provides a space for continuous communication.
+This emphasis on communication skills not only contributes to the success of joint projects but also prepares students for effective participation in digital, data-driven workplaces.
 Virtual discussions, joint problem-solving sessions, and collaborative coding exercises allow students to learn from each other's experiences, practices, and cultural backgrounds.
 This international teaching collaboration, therefore, not only enhances technical proficiency in version control using Git but also promotes a rich exchange of ideas among students and researchers from the partner universities.
 
@@ -31,6 +32,8 @@ The Erasmus University Rotterdam (EUR) is one of the profile partner universitie
 The student target group of the proposed course at EUR come from diverse study programs, including psychology, marketing, neuro-marketing and medicine.
 The EUR is at the forefront of the Open Science movement, promoting transparency, collaboration, and responsible research practices.
 For example, in August 2023, EUR hosted the Netherlands's National Open Science Festival, attracting 400 visitors.
+The university also has a policy requiring all short scientific work to be made available through Open Access. 
+This means that all EUR-researchers are mandated to make their publications Open Access, either by publishing in Open Access journals or by depositing their work in the institutional repository.
 Git and GitHub are tools that allow students and researchers to put principles of open science into practice, and they are in high demand within EUR's research and student community.
 Dr. Martinovici is an Assistant Professor of Marketing at the Rotterdam School of Management at the EUR.
 Beyond implementing principles of open and reproducible science in her own research, she has taught several workshops on version control with Git and GitHub, for example at the renowned conference of the Society for the Improvement of Psychological Science (SIPS).
@@ -53,6 +56,7 @@ This support could, for instance, involve assistance from teaching assistants at
 Fundamentally, Git and GitHub serve not only as tools for version control but also as crucial elements for fostering effective collaboration on digital objects.
 While these tools are domain-agnostic, our approach involves using examples that encourage intercultural exchange among students and researchers from the partner universities.
 For example, as part of the course exercises, students will contribute to a code & data repository hosted on GitHub, which is shared by students from both universities.
+To enhance students' intercultural experience in addition to subject-specific knowledge, the courses will introduce collaborative projects that deliberately require students to work in mixed teams. 
 This approach enables students not only to learn about version control and collaboration, but also provides them with the opportunity to interact with peers from the partner university.
 Through this interaction, students may exchange information about their field of study, student life in their respective cities, or other topics of mutual interest, thereby gaining valuable intercultural experience.
 
@@ -64,7 +68,11 @@ At Universität Hamburg, the course was introduced for the first time as an in-p
 It is planned to regularly incorporate the course into the curriculum and offer it each winter term.
 Discussions are underway regarding an additional offering of the course as part of the PhD graduate school at the Institute of Psychology at Universität Hamburg.
 Both course formats could consistently include international virtual learning experience, thereby establishing this course format for the long term.
+Moreover, to build flexibility into the course design and accommodate evolving educational trends, technological advancements, and changes in the academic landscape, we will actively seek feedback from students and other instructors through regular surveys and evaluations. 
+This continuous feedback mechanism will allow us to make real-time adjustments, ensuring that the course remains responsive to emerging developments, thereby contributing to its long-term viability.
 Similarly, at Erasmus University Rotterdam, the course may be extended to ERIM PhD students.
 ERIM (Erasmus Research Institute of Management) is a collaborative research institute of Rotterdam School of Management, Erasmus University (RSM), and the Erasmus School of Economics (ESE).
 Through the Open Science Community Rotterdam, the course will also be promoted to PhD students at other EUR research institutes, ensuring a diverse audience spanning various research fields, including psychology and medicine.
+To complement these efforts, ongoing professional development opportunities will be provided for instructors involved in the course, and comprehensive documentation and best practices guidelines will be developed. 
+This documentation will serve as a reference for future instructors, offering insights into successful strategies, challenges, and adjustments made over time, thereby contributing to the continuity and consistency in the delivery of the international virtual learning format.
 The ILLF@home program will provide the necessary support to establish an international virtual learning and teaching format that can be regularly integrated into the curricula of both partner universities.
