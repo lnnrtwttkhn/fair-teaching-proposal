@@ -11,7 +11,11 @@ With the support of the ILLF@home program, the course will be adapted for an int
 
 ### Project Goals
 
+::: {.callout-tip, title="Comments from the application form"}
+
 > In addition to imparting subject-related knowledge, virtual exchange among students and researchers from the partner university must be the primary goal.
+
+:::
 
 This course aims to teach students the fundamentals of version control using Git, with a focus on precise documentation of changes in digital objects, collaborative work, and effective use of platforms like GitHub.
 It integrates practical exercises to enhance skills in code and data management, aligning with the broader goals of promoting transparency, accessibility, and verifiability of knowledge in science and society.
@@ -26,7 +30,11 @@ This international teaching collaboration, therefore, not only enhances technica
 
 ### Partner University
 
+::: {.callout-tip, title="Comments from the application form"}
+
 > Explain your selection of partner university/universities. If the selected university is not a strategic or profile partner, separately explain the importance of the partnership.
+
+:::
 
 The Erasmus University Rotterdam (EUR) is one of the profile partner universities of the Universität Hamburg.
 The student target group of the proposed course at EUR come from diverse study programs, including psychology, marketing, neuro-marketing and medicine.
@@ -39,7 +47,11 @@ Together, Dr. Martinovici and Erasmus University Rotterdam present an ideal part
 
 ### Contributions
 
+::: {.callout-tip, title="Comments from the application form"}
+
 > What content-related or financial contribution will the partner make?
+
+:::
 
 Leveraging Dr. Martinovici's extensive experience in teaching version control with Git and GitHub, she will contribute to the content-related development of the course materials.
 Her expertise will help address current shortcomings in the existing course materials and tailor the course to meet the needs of students from both partner universities.
@@ -49,7 +61,11 @@ This support could, for instance, involve assistance from teaching assistants at
 
 ### Intercultural experience
 
+::: {.callout-tip, title="Comments from the application form"}
+
 > How will you help students gain intercultural experience in addition to subject-specific knowledge through the courses on offer?
+
+:::
 
 Fundamentally, Git and GitHub serve not only as tools for version control but also as crucial elements for fostering effective collaboration on digital objects.
 While these tools are domain-agnostic, our approach involves using examples that encourage intercultural exchange among students and researchers from the partner universities.
@@ -60,7 +76,11 @@ Through this interaction, students may exchange information about their field of
 
 ### Embedding in the curriculum
 
+::: {.callout-tip, title="Comments from the application form"}
+
 > The ILLF@home program aims to establish international virtual learning and teaching formats for the long term. To what degree is the project embedded in the curriculum and how do you plan on ensuring the project being applied for will become a long-term aspect of the curriculum?
+
+:::
 
 At Universität Hamburg, the course was introduced for the first time as an in-person seminar during the winter term 2023/24 as part of the elective module in the Master's program in Psychology.
 It is planned to regularly incorporate the course into the curriculum and offer it each winter term.
