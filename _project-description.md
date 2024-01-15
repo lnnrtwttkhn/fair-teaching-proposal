@@ -1,5 +1,7 @@
 # Project Description
 
+> a description of the project, esp. learning objectives and promotion of student cooperation and exchange at the participating partner universities; 
+
 ## Course Content
 
 The digital objects on our computers are in constant flux.
@@ -55,3 +57,15 @@ Communication outside the classes can take place through the GitHub platform.
 Basic programming skills are advantageous for the course but are not mandatory.
 The introduction to all used software technologies is part of the course.
 The applicants have extensive experience in using all mentioned software tools in research and teaching.
+
+### Course Goals
+
+This course aims to teach students the fundamentals of version control using Git, with a focus on precise documentation of changes in digital objects, collaborative work, and effective use of platforms like GitHub.
+It integrates practical exercises to enhance skills in code and data management, aligning with the broader goals of promoting transparency, accessibility, and verifiability of knowledge in science and society.
+Additionally, the course covers theoretical concepts in open science and reproducibility fostering a reflective engagement with digital and data-driven processes and enhancing students' employability in research, data analysis, and other sectors requiring digital competences.
+
+Beyond these subject-related goals, the course aims to foster virtual exchange among students and researchers from the two partner universities.
+Through collaborative learning and practical exercises, students engage in shared projects, encouraging active participation and the exchange of diverse perspectives.
+Using online platforms like GitHub for collaborative development not only facilitates real-time interactions but also provides a space for continuous communication.
+Virtual discussions, joint problem-solving sessions, and collaborative coding exercises allow students to learn from each other's experiences, practices, and cultural backgrounds.
+This international teaching collaboration, therefore, not only enhances technical proficiency in version control using Git but also promotes a rich exchange of ideas among students and researchers from the partner universities.

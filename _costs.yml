@@ -1,8 +1,8 @@
 travel:
-  Description: "Travel and accommodation for Lennart Wittkuhn for trip to initiate project"
+  Description: "Travel and accommodation for Lennart Wittkuhn for trip to Rotterdam to initiate project"
   Category: "Travel and accommodation"
   Duration: "2 days"
-  Costs: 300
+  Costs: 350
   Justification: |
     The travel costs for initiating the collaborative teaching project are justified as they enable essential face-to-face interactions with the collaborators at the partner university.
     This facilitates stronger interpersonal relationships, fostering effective communication and teamwork.
@@ -17,7 +17,7 @@ travel2:
     This in-person engagement allows the student research assistant to establish direct connections with team members, fostering effective communication and building a stronger working relationship.
     The opportunity for face-to-face interactions ensures a shared understanding of project goals and methodologies, enabling the student research assistant to work more efficiently and collaboratively in later stages.
     Additionally, participating in the initial meetings and discussions enhances the student research assistant's overall contribution, promoting a more integrated and cohesive team dynamic for the duration of the project.
-  Costs: 300
+  Costs: 350
 ra:
   Description: "Student Research Assistant (MSc level) for 40 hours / month"
   Category: "HR costs"
