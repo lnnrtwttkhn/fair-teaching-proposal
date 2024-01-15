@@ -19,7 +19,7 @@ The application documents can also be found on the project website at <https://l
 
 ### Project Goals
 
-> In addition to imparting subject-related knowledge, virtual exchange among students and researchers from the partner university must be the primary goal.
+> *"In addition to imparting subject-related knowledge, virtual exchange among students and researchers from the partner university must be the primary goal."*
 
 #### Short version
 
@@ -41,7 +41,7 @@ This international teaching collaboration, therefore, not only enhances technica
 
 ### Partner University
 
-> Explain your selection of partner university/universities. If the selected university is not a strategic or profile partner, separately explain the importance of the partnership.
+> *"Explain your selection of partner university/universities. If the selected university is not a strategic or profile partner, separately explain the importance of the partnership."*
 
 #### Short version
 
@@ -61,7 +61,7 @@ Together, Dr. Martinovici and Erasmus University Rotterdam present an ideal part
 
 ### Contributions
 
-> What content-related or financial contribution will the partner make?
+> *"What content-related or financial contribution will the partner make?"*
 
 #### Short version
 
@@ -79,7 +79,7 @@ This support could, for instance, involve assistance from teaching assistants at
 
 ### Intercultural experience
 
-> How will you help students gain intercultural experience in addition to subject-specific knowledge through the courses on offer?
+> *"How will you help students gain intercultural experience in addition to subject-specific knowledge through the courses on offer?"*
 
 #### Short version
 
@@ -98,7 +98,7 @@ Through this interaction, students may exchange information about their field of
 
 ### Embedding in the curriculum
 
-> The ILLF@home program aims to establish international virtual learning and teaching formats for the long term. To what degree is the project embedded in the curriculum and how do you plan on ensuring the project being applied for will become a long-term aspect of the curriculum?
+> *"The ILLF@home program aims to establish international virtual learning and teaching formats for the long term. To what degree is the project embedded in the curriculum and how do you plan on ensuring the project being applied for will become a long-term aspect of the curriculum?"*
 
 #### Short version
 
