@@ -32,8 +32,6 @@ The Erasmus University Rotterdam (EUR) is one of the profile partner universitie
 The student target group of the proposed course at EUR come from diverse study programs, including psychology, marketing, neuro-marketing and medicine.
 The EUR is at the forefront of the Open Science movement, promoting transparency, collaboration, and responsible research practices.
 For example, in August 2023, EUR hosted the Netherlands's National Open Science Festival, attracting 400 visitors.
-The university also has a policy requiring all short scientific work to be made available through Open Access. 
-This means that all EUR-researchers are mandated to make their publications Open Access, either by publishing in Open Access journals or by depositing their work in the institutional repository.
 Git and GitHub are tools that allow students and researchers to put principles of open science into practice, and they are in high demand within EUR's research and student community.
 Dr. Martinovici is an Assistant Professor of Marketing at the Rotterdam School of Management at the EUR.
 Beyond implementing principles of open and reproducible science in her own research, she has taught several workshops on version control with Git and GitHub, for example at the renowned conference of the Society for the Improvement of Psychological Science (SIPS).
