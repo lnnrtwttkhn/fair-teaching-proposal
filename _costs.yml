@@ -1,0 +1,64 @@
+travel:
+  Description: "Travel and accomodation for Lennart Wittkuhn for trip to initiate project"
+  Category: "Travel and accommodation"
+  Duration: "2 days"
+  Costs: 300
+  Justification: |
+    The travel costs for initiating the collaborative teaching project are justified as they enable essential face-to-face interactions with the collaborators at the partner university.
+    This facilitates stronger interpersonal relationships, fostering effective communication and teamwork.
+    In-person engagement during the initiation phase is crucial for efficient planning, alignment of teaching methodologies, and the establishment of a shared vision for the project.
+    The travel expenses contribute to a cohesive collaboration, enhancing the likelihood of project success and the delivery of high-quality educational outcomes.
+travel2:
+  Description: "Travel and accomodation for the Student Research Assistant for trip to initiate project"
+  Category: "Travel and accommodation"
+  Duration: "2 days"
+  Justification: |
+    Including the student research assistant in the travel costs is justified as it enhances their effectiveness in the collaborative teaching project by providing valuable face-to-face interactions with collaborators during the initiation phase.
+    This in-person engagement allows the student research assistant to establish direct connections with team members, fostering effective communication and building a stronger working relationship.
+    The opportunity for face-to-face interactions ensures a shared understanding of project goals and methodologies, enabling the student research assistant to work more efficiently and collaboratively in later stages.
+    Additionally, participating in the initial meetings and discussions enhances the student research assistant's overall contribution, promoting a more integrated and cohesive team dynamic for the duration of the project.
+  Costs: 300
+ra:
+  Description: "Student Research Assistant (MSc level) for 40 hours / month"
+  Category: "HR costs"
+  Duration: "01.04.2024 to 31.03.2025"
+  Costs: 9060.90
+  Justification: |
+    The student research assistant will help to adapt the existing learning materials to an international virtual learning setting.
+    In addition, they will enrich the curriculum by adding additional content that caters to diverse learning styles and the virtual setting.
+    The preparation of surveys and quizzes by the assistant contributes to formative assessments, facilitating ongoing improvements to the course.
+    The student research assistant wil also analyze responses to online surveys, expected to provide valuable insights into the learning progress of students.
+    The student research assistant's role in analyzing web traffic (see note about website anaytics below) contributes to optimizing the online learning materials for accessibility and user experience.
+    Finally, their involvement in preparing each teaching session ensures a seamless integration of the various learning resources, elevating the overall quality of the virtual learning experience for students.
+ta1:
+  Description: "Student Teaching Assistant 1 (MSc level) for 2 SWS / month"
+  Category: "HR costs"
+  Duration: "14.10.24 to 01.02.25"
+  Costs: 2143.07
+  Justification: |
+    In an online Git course, a teaching assistant (TA) is crucial for providing individualized support, timely feedback, and technical troubleshooting to students navigating the complexities of version control.  
+    With the absence of in-person interaction, a TA becomes instrumental in facilitating discussions, fostering collaboration, and adapting to diverse learning styles.  
+    They supplement instructional content, manage assessments, and ensure a consistent learning experience for students with varying levels of familiarity with Git concepts.  
+    Overall, a TA's presence enriches the online learning environment by offering personalized assistance, promoting collaborative engagement, and contributing to the successful learning of Git practices.
+ta2:
+  Description: "Student Teaching Assistant 2 (MSc level) for 2 SWS / month"
+  Category: "HR costs"
+  Duration: "14.10.24 to 01.02.25"
+  Costs: 2143.07
+  Justification: |
+    Introducing a second teaching assistant (TA) in an online Git course further enhances the learning experience by addressing the demands of the diverse course participants.
+    The second TA can efficiently manage additional volume of inquiries, providing additional individualized support and timely feedback.
+    This ensures that students receive prompt assistance, particularly during challenging learning sections.
+    Moreover, having two TAs facilitates more comprehensive coverage of discussion forums and collaborative activities, fostering a richer learning environment.
+    With varying learning paces and backgrounds, having two TAs allows for even greater adaptability to diverse learning styles, offering students an enhanced and well-rounded educational experience.
+plausible:
+  Description: "License for Plausible.io"
+  Category: "Partial costs"
+  Duration: "01.04.2024 to 31.03.2025"
+  Justification: |
+    All course materials will be shared as publicly accessible websites hosted via [GitHub Pages](https://pages.github.com/).
+    We will use website analytics to gain insights into reach and dissemination of the teaching materials.
+    These insights will allow us to better understand how users engage with our online learning materials and derive opportunities for improvements.
+    We will use [Plausible](https://plausible.io/), which provides "intuitive, lightweight and open source web analytics", does not use cookies and is fully compliant with GDPR, CCPA and PECR.
+    A subscription plan with a monthly quota of up to 10k pageviews for 1 year will be selected.
+  Costs: 107.10
