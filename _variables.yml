@@ -1,5 +1,5 @@
 project:
-  name: "fair-teaching-application"
+  name: "fair-teaching-proposal"
   website: "https://lennartwittkuhn.com/{{< var project.name >}}/"
   github: "https://github.com/lnnrtwttkhn/{{< var project.name >}}"
   email: "lennart.wittkuhn@uni-hamburg.de"

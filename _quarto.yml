@@ -48,7 +48,7 @@ format:
     code-link: false
     code-annotations: true
     code-tools:
-      source: https://github.com/lnnrtwttkhn/fair-teaching-application
+      source: https://github.com/lnnrtwttkhn/fair-teaching-proposal
       toggle: true
       caption: "Code"
     engine: knitr
