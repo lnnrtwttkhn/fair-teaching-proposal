@@ -47,7 +47,7 @@ format:
     code-link: false
     code-annotations: true
     code-tools:
-      source: https://github.com/lnnrtwttkhn/illf-application
+      source: https://github.com/lnnrtwttkhn/fair-teaching-application
       toggle: true
       caption: "Code"
     engine: knitr
