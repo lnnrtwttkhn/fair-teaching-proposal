@@ -2,7 +2,7 @@
 engine: knitr
 ---
 
-# Cost Justification
+## Financial Needs
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE)
@@ -16,7 +16,7 @@ costs_list <- yaml::read_yaml("_costs.yml")
 dt <- data.table::rbindlist(costs_list, fill = TRUE)
 ```
 
-## Overview
+### Overview
 
 ```{r}
 dt_print <- copy(dt) %>% .[, Justification := NULL]
@@ -25,7 +25,7 @@ knitr::kable(dt_print, format = "markdown", row.names = TRUE)
 
 **Sum of total costs:** `r as.character(round(sum(dt$Costs), 2))` Euro ~ `r as.character(round(sum(dt$Costs), -1))` Euro.
 
-## Justification
+### Justification
 
 ```{r}
 #| output: asis
