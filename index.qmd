@@ -12,8 +12,6 @@ An online version of this application is available at:
 \newpage
 {{< include _project-description.md >}}
 \newpage
-{{< include timetable.qmd >}}
-\newpage
 {{< include cost-justification.qmd >}}
 \newpage
 {{< include _application-form.md >}}
