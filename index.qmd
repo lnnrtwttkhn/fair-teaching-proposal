@@ -4,10 +4,12 @@ subtitle: |
   Application for the "Claussen-Simon-Fonds für Wissenschaft & Hochschule"
 ---
 
-An online version of this application is available at:
+An online version of this application is available at: 
 
-<{{< var project.website >}}>
+[{{< var project.website >}}]({{< var project.website >}})
 
+{{< include _project-information.md >}}
+\newpage
 {{< include _project-description.md >}}
 \newpage
 {{< include timetable.qmd >}}

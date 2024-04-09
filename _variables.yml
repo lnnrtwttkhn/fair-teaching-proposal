@@ -2,3 +2,6 @@ project:
   name: "fair-teaching-application"
   website: "https://lennartwittkuhn.com/{{< var project.name >}}/"
   github: "https://github.com/lnnrtwttkhn/{{< var project.name >}}"
+  email: "lennart.wittkuhn@uni-hamburg.de"
+  mailto: "mailto:{{< var project.email >}}"
+  phone: "+49 (0)40 42838 5346"
