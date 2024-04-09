@@ -1,0 +1,4 @@
+project:
+  name: "fair-teaching-application"
+  website: "https://lennartwittkuhn.com/{{< var project.name >}}/"
+  github: "https://github.com/lnnrtwttkhn/{{< var project.name >}}"
