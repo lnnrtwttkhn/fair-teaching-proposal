@@ -18,7 +18,7 @@ In Germany, lecturers at publicly-funded universities are required by law to ful
 Thus, a lot of time and expertise is spent on the development of teaching materials but these valuable learning resources are rarely publicly available for public education or as a staring point for further development by other lecturers.
 
 To address the urgent need to improve the infrastructure supporting the reuse of scholarly data, a diverse consortium of stakeholders in science developed the FAIR Data Principles [@wilkinson2016].
-The FAIR principles state that research outputs should be **F**indable, **A**ccessible, **I**nteroperable and **R**eusable [@wilkinson2016].
+The FAIR principles state that research outputs should be Findable, Accessible, Interoperable and Reusable [@wilkinson2016].
 Originally developed as guiding principles for scientific data management and stewardship [@wilkinson2016], the FAIR principles are equally applicable to other types of scientific outputs, including teaching materials [see, e.g., @garcia2020].
 
 While some general recommendations exist on how to make teaching materials FAIR and reproducible [see, e.g., @garcia2020], specific guidelines, practical examples or tools for concrete implementation are scarce.
@@ -58,4 +58,4 @@ Next, we will implement this framework in a concrete teaching project (for examp
 In addition, we will offer lecturers at the home institution (Institute of Psychology at University of Hamburg) with opportunities to learn about both Quarto and Git, with a specific focus on creating open educational resources.
 This will allow lecturers to implement this approach in their own teaching.
 Finally, we will document and evaluate the approach, also collecting feedback from both students and teachers.
-This documentation will result in a set of concrete recommendations in the implementation of FAIR and reproducible teaching materials for re-use by other teachers, lecturers and research institutions.
+This documentation will result in a set of concrete recommendations in the implementation of FAIR and reproducible teaching materials for reuse by other teachers, lecturers and research institutions.
