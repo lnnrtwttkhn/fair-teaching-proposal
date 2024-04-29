@@ -3,7 +3,7 @@ application-documents-wittkuhn.pdf: docs/index.pdf
 
 .PHONY: preview
 preview:
-	quarto preview
+	quarto preview index.qmd
 
 .PHONY: render
 render:
