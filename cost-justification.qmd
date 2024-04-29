@@ -23,7 +23,9 @@ dt_print <- copy(dt) %>% .[, Justification := NULL]
 knitr::kable(dt_print, format = "markdown", row.names = TRUE)
 ```
 
-**Sum of total costs:** `r as.character(round(sum(dt$Costs), 2))` Euro ~ `r as.character(round(sum(dt$Costs), -1))` Euro.
+In sum, the expected **total costs of the project** are **~ `r as.character(round(sum(dt$Costs), -1))` Euro**.
+
+We provide additional justification for the financial needs below.
 
 ### Justification
 
