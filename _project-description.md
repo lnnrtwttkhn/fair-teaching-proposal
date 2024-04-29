@@ -31,15 +31,15 @@ The goal of this project is to develop a concrete approach to implement the deve
 1. Create a framework (in the form of a manual) for developing open educational resources (OER) in line with FAIR principles using {{< var links.quarto >}} and {{< var links.git >}}
 1. Implement the framework in a concrete course (for example, in a seminar) in winter semester 2025/25
 1. Offer training to teachers at University of Hamburg to implement the framework in their own teaching
-1. Evaluate the impact of the teaching framework using survey with teachers and students
+1. Evaluate the impact of the teaching framework using surveys and interviews with teachers and students
 :::
 
 In the proposed project, we will develop a framework for creating open educational resources (OER) in a transparent, reproducible fashion, in line with FAIR principles using the open-source software tools {{< var links.quarto >}} and {{< var links.git >}}.
-First, we will implement this framework in concrete teaching project during the winter semester 2024/25.
-Next, we will implement this framework in a concrete teaching project (for example, a seminar).
-In addition, we will offer lecturers at the home institution (Institute of Psychology at University of Hamburg) with opportunities to learn about both Quarto and Git, with a specific focus on creating open educational resources.
+First, we will develop the framework in the form of a manual with concrete recommendations and templates to implement FAIR and reproducible teaching using Quarto and Git.
+Next, we will implement this framework in a concrete teaching project (for example, a seminar) during the winter semester 2024/25.
+In addition, we will offer lecturers to teaching research staff at the home institution (Institute of Psychology at University of Hamburg) with opportunities to learn about both Quarto and Git, with a specific focus on creating open educational resources (for example, websites, presentations and online surveys).
 This will allow lecturers to implement this approach in their own teaching.
-Finally, we will document and evaluate the approach, also collecting feedback from both students and teachers.
+Finally, we will document and evaluate the approach, also collecting feedback from both students and teachers via online survey and structured interviews.
 This documentation will result in a set of concrete recommendations in the implementation of FAIR and reproducible teaching materials for reuse by other teachers, lecturers and research institutions.
 
 Our approach will rely on two technical tools: {{< var links.quarto >}} and {{< var links.git >}}.
@@ -48,11 +48,9 @@ Quarto is a free and open-source scientific and technical publishing system deve
 Quarto allows to create and publish reproducible, production quality articles, presentations, dashboards, websites, blogs, and books in various formats like HTML, PDF, MS Word and ePub.
 Authors can use Jupyter notebooks or write plain text Markdown in their favorite editor.
 As a literate programming tool, Quarto can integrate prose with widely used programming languages like Python, R, Julia, and Observable.
-In the context of teaching materials, Quarto may be used to generate course websites, online textbooks and presentations, all within one framework.
-
-
-
-Quarto offers many tools that support accessibility (for an overview, see https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/index.html#category=accessibility).
+In the context of teaching materials, Quarto may be used to generate course websites, online textbooks and presentations, all within one technical framework.
+Providing educational materials that are accessible to diverse groups of learners is an important but often overlooked aspect in the preparation of teaching materials.
+Quarto offers many tools that support accessibility and therefore allow for equitable and inclusive access to learning materials (for an overview, see https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/index.html#category=accessibility).
 
 For Quarto websites, blog posts, and HTML pages, you can include an image in the metadata that will be displayed in places such as the thumbnail for blog posts (like each of the tips on this site), and the preview card on social media.
 
