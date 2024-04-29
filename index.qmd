@@ -6,9 +6,13 @@ date: today
 doi: "{{< var project.doi >}}"
 ---
 
-An online version of this application is available at: 
-
-[{{< var project.website >}}]({{< var project.website >}})
+::: {.callout-note title="About this document"}
+An online version of this application is available at [{{< var project.website >}}]({{< var project.website >}}).
+A PDF version of this application is archived on Zenodo at [{{< var project.doi-link >}}]({{< var project.doi-link >}}).
+The source code of this application is available on GitHub at [{{< var project.github >}}]({{< var project.github >}}).
+For questions, feedback or any other comments, please open an issue on GitHub at [{{< var project.issues >}}]({{< var project.issues >}}) or send an email to [{{< var project.email >}}]({{< var project.mailto >}}).
+The contents of this proposal are available under a [{{< var project.license-long >}}]({{< var project.license-long >}}) license and were developed using 
+:::
 
 {{< include _project-information.md >}}
 \newpage
