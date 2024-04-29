@@ -2,6 +2,7 @@
 title: "Implementing FAIR and reproducible teaching"
 subtitle: |
   Application for the "Claussen-Simon-Fonds für Wissenschaft & Hochschule"
+date: today
 ---
 
 An online version of this application is available at: 
