@@ -50,19 +50,10 @@ Authors can use Jupyter notebooks or write plain text Markdown in their favorite
 As a literate programming tool, Quarto can integrate prose with widely used programming languages like Python, R, Julia, and Observable.
 In the context of teaching materials, Quarto may be used to generate course websites, online textbooks and presentations, all within one technical framework.
 Providing educational materials that are accessible to diverse groups of learners is an important but often overlooked aspect in the preparation of teaching materials.
-Quarto offers many tools that support accessibility and therefore allow for equitable and inclusive access to learning materials (for an overview, see https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/index.html#category=accessibility).
-
-For Quarto websites, blog posts, and HTML pages, you can include an image in the metadata that will be displayed in places such as the thumbnail for blog posts (like each of the tips on this site), and the preview card on social media.
-
-For Quarto websites, you can add icons as Nav Items in the navbar and/or page footer YAML. The value of the icon field can be the name of any of the Bootstrap icons. To make these items accessible to screen readers, you should also add an aria-label describing what the navigation item is.
-
-Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y.
-You can add alternative text to figures you create with code by adding the fig-alt chunk option, which works for Knitr, Jupyter, and Observable code chunks.
-
-You can set your Quarto presentation to play a subtle sound when slide is advanced to the next slide or as part of incremental build in a given slide. This enables presenters to hear an auditory signal (from a low C to a high C note) of their progress through the slides.
-This feature can be particularly useful for blind users who use a screen reader or otherwise interact with content via auditory signals.
-
-
+Quarto offers many tools that support accessibility and therefore allow for equitable and inclusive access to educational resources (for an overview, see https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/index.html#category=accessibility).
+On Quarto websites, images and icons can include metadata that make these elements accessible to screen readers.
+Figures created with code can include alternative text and there is code syntax highlighting with accessible color contrast.
+Finally, presentations can play sounds when slides are advanced which makes them more accessible for blind users.
 
 {{< var links.git >}} is a free and open-source distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers who are collaboratively developing source code during software development.
 Git is arguably the most popular version control system.
