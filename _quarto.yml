@@ -60,3 +60,6 @@ format:
     include-after-body: plausible.html
   pdf:
     toc: false
+    include-in-header:
+      - text: |
+          \usepackage{style}
