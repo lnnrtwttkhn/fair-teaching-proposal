@@ -2,20 +2,21 @@
 
 ### Background
 
-The main goal of this project is to establish concrete steps to make teaching and educational materials more FAIR (findable, accessible, interoperable, reusable) and reproducible.
+The main goal of this project is to establish and pilot a practical approach to make teaching and educational materials more FAIR (findable, accessible, interoperable, reusable), open and reproducible.
 
 Science should be open, reproducible and verifiable.
-Yet, investigations across many different scientific disciplines have discovered that this is not the case for the majority of published findings of the scientific literature.
+Yet, investigations across many different scientific disciplines have discovered that this is not the case for the majority of published findings in the scientific literature.
 For example, several studies in the research field of Psychology estimate that more than half of research is not reproducible [opensciencecollaboration2015; @crüwell2023; @hardwicke2021; @wicherts2006; @obels2020].
-Thus, in an online survey among 1,500 researchers, 90% of the respondents agreed that there was reproducibility crisis in science [@baker2016].
-One key driver of this issue of reproducibility is that research data, analysis code, software or other materials that are needed to reproduce the results of a given study, are often not accessible, not even "upon (reasonable) request".
+Thus, in an online survey among 1,500 researchers, 90% of the respondents agreed that there science faces a "reproducibility crisis" [@baker2016].
+One key driver of this issues of irreproducibility is that research data, analysis code, software or other materials that are needed to reproduce the results of a given study, are often not accessible, not even "upon (reasonable) request".
 Even if resources are shared, they are often incomplete and do not allow for independent verification.
-Together, [...] accumulated evidence indicates that there is substantial room for improvement with regard to research practices to maximize the efficiency of the research community's use of the public's financial investment." [@munafò2017]
+Together, many researchers agree that "[...] accumulated evidence indicates that there is substantial room for improvement with regard to research practices to maximize the efficiency of the research community's use of the public's financial investment." [@munafò2017]
 
-While issues of accessibility and re-usability of research outputs are frequently discussed in the context of research data and analysis code, it is important to note that the same issues also apply to other outputs of academic activities, in particular teaching materials.
+While issues of accessibility and re-usability of research outputs are frequently discussed in the context of research data and analysis code, it is important to note that the same issues also apply to other outputs of academic activities, in particular the preparation and dissemination of educational resources (i.e., teaching materials).
 Teaching activities take up a sizable portion of the working time of researchers.
-In Germany, lecturers at publicly-funded universities are required by law to fulfill a certain number of teaching hours.
-Thus, a lot of time and expertise is spent on the development of teaching materials but these valuable learning resources are rarely publicly available for public education or as a staring point for further development by other lecturers.
+In Germany, lecturers at publicly-funded universities are required (by legal ordinances) to fulfill a certain number of teaching hours.
+Thus, a lot of time and expertise is put into the development of teaching materials.
+However, these valuable learning resources are rarely publicly available for public education or as a staring point for further development by other lecturers.
 
 To address the urgent need to improve the infrastructure supporting the reuse of scholarly data, a diverse consortium of stakeholders in science developed the FAIR Data Principles [@wilkinson2016].
 The FAIR principles state that research outputs should be Findable, Accessible, Interoperable and Reusable [@wilkinson2016].
@@ -26,15 +27,46 @@ The goal of this project is to develop a concrete approach to implement the deve
 
 ### Implementation Plan
 
-Our approach will rely on two technical tools: Quarto and Git.
+::: {.callout-tip title="Overview of implementation plan"}
+1. Create a framework (in the form of a manual) for developing open educational resources (OER) in line with FAIR principles using {{< var links.quarto >}} and {{< var links.git >}}
+1. Implement the framework in a concrete course (for example, in a seminar) in winter semester 2025/25
+1. Offer training to teachers at University of Hamburg to implement the framework in their own teaching
+1. Evaluate the impact of the teaching framework using survey with teachers and students
+:::
 
-Quarto is a free and open-source scientific and technical publishing system developed by the open source data science company Posit (formerly know as RStudio).
+In the proposed project, we will develop a framework for creating open educational resources (OER) in a transparent, reproducible fashion, in line with FAIR principles using the open-source software tools {{< var links.quarto >}} and {{< var links.git >}}.
+First, we will implement this framework in concrete teaching project during the winter semester 2024/25.
+Next, we will implement this framework in a concrete teaching project (for example, a seminar).
+In addition, we will offer lecturers at the home institution (Institute of Psychology at University of Hamburg) with opportunities to learn about both Quarto and Git, with a specific focus on creating open educational resources.
+This will allow lecturers to implement this approach in their own teaching.
+Finally, we will document and evaluate the approach, also collecting feedback from both students and teachers.
+This documentation will result in a set of concrete recommendations in the implementation of FAIR and reproducible teaching materials for reuse by other teachers, lecturers and research institutions.
+
+Our approach will rely on two technical tools: {{< var links.quarto >}} and {{< var links.git >}}.
+
+Quarto is a free and open-source scientific and technical publishing system developed by the open source data science company {{< var links.posit>}} (formerly know as RStudio).
 Quarto allows to create and publish reproducible, production quality articles, presentations, dashboards, websites, blogs, and books in various formats like HTML, PDF, MS Word and ePub.
 Authors can use Jupyter notebooks or write plain text Markdown in their favorite editor.
 As a literate programming tool, Quarto can integrate prose with widely used programming languages like Python, R, Julia, and Observable.
 In the context of teaching materials, Quarto may be used to generate course websites, online textbooks and presentations, all within one framework.
 
-Git is a free and open-source distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers who are collaboratively developing source code during software development.
+
+
+Quarto offers many tools that support accessibility (for an overview, see https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/index.html#category=accessibility).
+
+For Quarto websites, blog posts, and HTML pages, you can include an image in the metadata that will be displayed in places such as the thumbnail for blog posts (like each of the tips on this site), and the preview card on social media.
+
+For Quarto websites, you can add icons as Nav Items in the navbar and/or page footer YAML. The value of the icon field can be the name of any of the Bootstrap icons. To make these items accessible to screen readers, you should also add an aria-label describing what the navigation item is.
+
+Quarto comes with accessible (with respect to color contrast) theme for syntax highlighting: a11y.
+You can add alternative text to figures you create with code by adding the fig-alt chunk option, which works for Knitr, Jupyter, and Observable code chunks.
+
+You can set your Quarto presentation to play a subtle sound when slide is advanced to the next slide or as part of incremental build in a given slide. This enables presenters to hear an auditory signal (from a low C to a high C note) of their progress through the slides.
+This feature can be particularly useful for blind users who use a screen reader or otherwise interact with content via auditory signals.
+
+
+
+{{< var links.git >}} is a free and open-source distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers who are collaboratively developing source code during software development.
 Git is arguably the most popular version control system.
 "Version control is an approach to record changes made in a file or set of files over time so that you and your collaborators can track their history, review any changes, and revert or go back to earlier versions" [@turingway2022].
 Version control allows to keep track of changes in a directory (called a "repository").
@@ -53,9 +85,3 @@ It is a command-line tool and available for all major operating systems (Windows
 In addition, several graphical user interfaces exist and Git is integrated into many integrated development environments (IDEs) like RStudio and Visual Studio Code.
 Git can be considered a standard tool in the software industry and its popularity is evidenced by the 100 million of the popular repository hosting service GitHub ^[(Source: [Wikipedia](https://en.wikipedia.org/wiki/GitHub))].
 
-In the proposed project, we will first develop a framework for how to implement the FAIR principles and reproducibility using Quarto and Git.
-Next, we will implement this framework in a concrete teaching project (for example, a seminar).
-In addition, we will offer lecturers at the home institution (Institute of Psychology at University of Hamburg) with opportunities to learn about both Quarto and Git, with a specific focus on creating open educational resources.
-This will allow lecturers to implement this approach in their own teaching.
-Finally, we will document and evaluate the approach, also collecting feedback from both students and teachers.
-This documentation will result in a set of concrete recommendations in the implementation of FAIR and reproducible teaching materials for reuse by other teachers, lecturers and research institutions.
