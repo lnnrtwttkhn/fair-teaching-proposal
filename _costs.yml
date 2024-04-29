@@ -1,6 +1,6 @@
 ra:
   Description: "Student Research Assistant (MSc level) for 30 hours / month"
-  Category: "HR costs"
+  Category: "HR"
   Duration: "15.08.2024 to 31.08.2025"
   Costs: 7573.88					
   Justification: |
@@ -8,8 +8,8 @@ ra:
     Specifically, the student RA will support the development of learning materials for Quarto and Git, the tools that are at the center of our approach.
     In addition, the student RA will contriubute to the development and analysis surveys and quizzes that allow to collect continuous feedback from both students and teachers to address any challenges or identify opportunities for improvement.
 ta:
-  Description: "Student Teaching Assistant 1 (MSc level) for 2 SWS / month"
-  Category: "HR costs"
+  Description: "Student Teaching Assistant (MSc level) for 2 SWS / month"
+  Category: "HR"
   Duration: "14.10.24 to 01.02.25"
   Costs: 2256.99	
   Justification: |
