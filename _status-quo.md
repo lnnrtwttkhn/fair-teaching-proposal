@@ -29,6 +29,8 @@ Again, while the "Lehre-Navi" offers a great diversity of open learning resource
 Importantly, both these infrastructures do not offer a systematic way to support collaborative development of learning resources.
 While OpenOlat allows to synchronize collaborative work in office tools using OnlyOffice, this limits teaching formats to closed Office formats similar to Word, and Excel.
 
+A core advantage of the proposed approach is that it‘s at the same time fully independent from institutional infrastructure and can therefore be easily transferred between institutions but can also integrate with infrastructure that universities already provide.
+
 As briefly described in the [project description](#project-description), the tools proposed for our approach to the development of teaching materials, Quarto and Git, are free to use, open source and available for all major operating systems (Windows, macOS, Linux).
 They are easy to install and there is extensive documentation on their use online.
 In addition, the applicant is experienced in teaching these tools (for Git, see for example: <https://lennartwittkuhn.com/version-control-course-uhh-ss24/>; for Quarto, see for example: <https://lennartwittkuhn.com/quarto-workshop/>).
