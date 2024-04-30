@@ -20,4 +20,5 @@ For questions, feedback or any other comments, please open an issue on GitHub at
 {{< include _status-quo.md >}}
 {{< include _target-group.md >}}
 {{< include cost-justification.qmd >}}
+{{< include _acknowledgements.md >}}
 {{< include references.qmd >}}
