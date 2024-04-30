@@ -37,9 +37,7 @@ format:
     toc-title: "Contents"
     toc-expand: true
     number-sections: false
-    cap-location: margin
-    fig-cap-location: margin
-    tbl-cap-location: margin
+    cap-location: bottom
     page-layout: article
     code-fold: true
     code-overflow: wrap
