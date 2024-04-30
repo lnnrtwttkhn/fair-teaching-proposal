@@ -2,10 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Dr.&nbsp;Lennart Wittkuhn">
 <meta name="dcterms.date" content="2024-04-30">
 
 <title>Implementing FAIR and reproducible teaching</title>
@@ -25,6 +26,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -58,13 +60,21 @@ div.csl-indent {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -73,6 +83,7 @@ div.csl-indent {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -127,16 +138,16 @@ div.csl-indent {
   <div class="quarto-title-meta-heading">Affiliations</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author"><a href="https://lennartwittkuhn.com/">Dr.&nbsp;Lennart Wittkuhn</a> <a href="https://orcid.org/0000-0003-2966-6888" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+    <p class="author"><a href="https://lennartwittkuhn.com/">Dr.&nbsp;Lennart Wittkuhn</a> <a href="mailto:lennart.wittkuhn@uni-hamburg.de" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-2966-6888" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
   </div>
-    <div class="quarto-title-meta-contents">
+  <div class="quarto-title-meta-contents">
         <p class="affiliation">
             <a href="https://www.psy.uni-hamburg.de/en.html">
             Institute of Psychology, University of Hamburg, Germany
             </a>
           </p>
       </div>
-    </div>
+  </div>
 
 <div class="quarto-title-meta">
 
@@ -152,7 +163,9 @@ div.csl-indent {
   </div>
   
 
+
 </header>
+
 
 <div class="callout callout-style-default callout-note callout-titled" title="About this document">
 <div class="callout-header d-flex align-content-center">
@@ -164,7 +177,7 @@ About this document
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This is an application for the <a href="https://www.claussen-simon-stiftung.de/de/wissenschaft-hochschule/claussen-simon-fonds-wissenschaft-hochschule/">Claussen-Simon-Fonds für Wissenschaft &amp; Hochschule</a>. An online version of this application is available at <a href="https://lennartwittkuhn.com/fair-teaching-proposal/">https://lennartwittkuhn.com/fair-teaching-proposal/</a>. <!-- A PDF version of this application is archived on Zenodo at [https://doi.org/10.5281/zenodo.8300151](https://doi.org/10.5281/zenodo.8300151). --> The source code of this application is available on GitHub at <a href="https://github.com/lnnrtwttkhn/fair-teaching-proposal">https://github.com/lnnrtwttkhn/fair-teaching-proposal</a>. For questions, feedback or any other comments, please open an issue on GitHub at <a href="https://github.com/lnnrtwttkhn/fair-teaching-proposal/issues">https://github.com/lnnrtwttkhn/fair-teaching-proposal/issues</a> or send an email to <a href="mailto:lennart.wittkuhn@uni-hamburg.de">lennart.wittkuhn@uni-hamburg.de</a>. The contents of this proposal are available under a <a href="Creative Commons Attribution 4.0 International (CC BY 4.0)">Creative Commons Attribution 4.0 International (<span>CC BY 4.0</span>)</a> license and were developed using</p>
+<p>This is an application for the <a href="https://www.claussen-simon-stiftung.de/de/wissenschaft-hochschule/claussen-simon-fonds-wissenschaft-hochschule/">Claussen-Simon-Fonds für Wissenschaft &amp; Hochschule</a>. An online version of this application is available at <a href="https://lennartwittkuhn.com//">https://lennartwittkuhn.com/fair-teaching-proposal/</a>. <!-- A PDF version of this application is archived on Zenodo at [https://doi.org/](https://doi.org/). --> The contents of this proposal are available under a <a href="Creative Commons Attribution 4.0 International (CC BY 4.0)">Creative Commons Attribution 4.0 International (<span>CC BY 4.0</span>)</a> license and were developed using <a href="{{< var links.quarto-link >}}">Quarto</a> and <a href="{{< var links.git-link >}}">Git</a>. The source code of this application is available on GitHub at <a href="https://github.com/lnnrtwttkhn/">https://github.com/lnnrtwttkhn/fair-teaching-proposal</a>. For questions, feedback or any other comments, please open an issue on GitHub at <a href="./issues">https://github.com/lnnrtwttkhn/fair-teaching-proposal/issues</a> or send an email to <a href="mailto:">lennart.wittkuhn@uni-hamburg.de</a>.</p>
 </div>
 </div>
 <section id="project-information" class="level2">
@@ -173,7 +186,7 @@ About this document
 <li><strong>Institution:</strong> University of Hamburg, Faculty of Psychology and Human Movement Science, Institute of Psychology, Department for “Cognitive Neuroscience of Learning and Change”</li>
 <li><strong>Address:</strong> Von-Melle-Park 5, 20146 Hamburg</li>
 <li><strong>Applicant:</strong> Dr.&nbsp;Lennart Wittkuhn, Postdoctoral Researcher</li>
-<li><strong>Contact:</strong> <a href="mailto:lennart.wittkuhn@uni-hamburg.de">lennart.wittkuhn@uni-hamburg.de</a>, +49 (0)40 42838 5346</li>
+<li><strong>Contact:</strong> <a href="mailto:">lennart.wittkuhn@uni-hamburg.de</a>, +49 (0)40 42838 5346</li>
 </ul>
 </section>
 <section id="project-description" class="level2">
@@ -181,7 +194,7 @@ About this document
 <section id="background" class="level3">
 <h3 class="anchored" data-anchor-id="background">Background</h3>
 <p>The main goal of this project is to develop, pilot and document a practical approach to making teaching and educational materials more FAIR (findable, accessible, interoperable, reusable), open and reproducible.</p>
-<p>Science should be open, reproducible and verifiable. Yet, investigations across many scientific disciplines have uncovered that this might not be the case for a large proportion of published findings in the scientific literature. For example, several studies in the research field of Psychology estimate that more than half of research is not reproducible <span class="citation" data-cites="opensciencecollaboration2015 crüwell2023 hardwicke2021 wicherts2006 obels2020">(<a href="#ref-opensciencecollaboration2015" role="doc-biblioref">Collaboration, 2015</a>; <a href="#ref-crüwell2023" role="doc-biblioref">Crüwell et al., 2023</a>; <a href="#ref-hardwicke2021" role="doc-biblioref">Hardwicke et al., 2021</a>; <a href="#ref-obels2020" role="doc-biblioref">Obels et al., 2020</a>; <a href="#ref-wicherts2006" role="doc-biblioref">Wicherts et al., 2006</a>)</span>. Thus, in an online survey among 1,500 researchers, 90% of the respondents agreed that science faces a “reproducibility crisis” <span class="citation" data-cites="baker2016">(<a href="#ref-baker2016" role="doc-biblioref">Baker, 2016</a>)</span>. One key driver of this issue of irreproducibility is that materials needed to reproduce the results of a given study (research data, analysis code, software or other materials), are often not accessible, not even “upon (reasonable) request”. Even if resources are shared, they are often incomplete and do not allow for independent verification or reuse. Together, many researchers agree that “[…] accumulated evidence indicates that there is substantial room for improvement with regard to research practices to maximize the efficiency of the research community’s use of the public’s financial investment.” <span class="citation" data-cites="munafò2017">(<a href="#ref-munafò2017" role="doc-biblioref">Munafò et al., 2017</a>)</span></p>
+<p>Science should be open, reproducible and verifiable. Yet, investigations across many scientific disciplines have uncovered that this might not be the case for a large proportion of published findings in the scientific literature. For example, several studies in the research field of Psychology estimate that more than half of research is not reproducible <span class="citation" data-cites="opensciencecollaboration2015 crüwell2023 hardwicke2021 wicherts2006 obels2020">(<a href="#ref-crüwell2023" role="doc-biblioref">Crüwell et al., 2023</a>; <a href="#ref-hardwicke2021" role="doc-biblioref">Hardwicke et al., 2021</a>; <a href="#ref-obels2020" role="doc-biblioref">Obels et al., 2020</a>; <a href="#ref-opensciencecollaboration2015" role="doc-biblioref">Open Science Collaboration, 2015</a>; <a href="#ref-wicherts2006" role="doc-biblioref">Wicherts et al., 2006</a>)</span>. Thus, in an online survey among 1,500 researchers, 90% of the respondents agreed that science faces a “reproducibility crisis” <span class="citation" data-cites="baker2016">(<a href="#ref-baker2016" role="doc-biblioref">Baker, 2016</a>)</span>. One key driver of this issue of irreproducibility is that materials needed to reproduce the results of a given study (research data, analysis code, software or other materials), are often not accessible, not even “upon (reasonable) request”. Even if resources are shared, they are often incomplete and do not allow for independent verification or reuse. Together, many researchers agree that “[…] accumulated evidence indicates that there is substantial room for improvement with regard to research practices to maximize the efficiency of the research community’s use of the public’s financial investment.” <span class="citation" data-cites="munafò2017">(<a href="#ref-munafò2017" role="doc-biblioref">Munafò et al., 2017</a>)</span></p>
 <p>While issues of accessibility and re-usability of research outputs are frequently discussed in the context of research data and analysis code, it is important to note that the same issues also apply to other outputs of academic activity, in particular the preparation and dissemination of teaching materials and other educational resources. Teaching activities take up a sizable portion of the working time of researchers. In Germany, lecturers at publicly-funded universities are required (by legal ordinances) to fulfill a certain number of teaching hours. Thus, a lot of time and expertise is put into the development of teaching materials. However, these valuable learning resources are rarely publicly available for public education or as a staring point for further (potentially collaborative) development by other educators.</p>
 <p>To address the urgent need to improve infrastructure and academic frameworks supporting the reuse of scholarly data, a diverse consortium of stakeholders in science developed the FAIR Data Principles <span class="citation" data-cites="wilkinson2016">(<a href="#ref-wilkinson2016" role="doc-biblioref">Wilkinson et al., 2016</a>)</span>. The FAIR principles state that research outputs should be Findable, Accessible, Interoperable and Reusable <span class="citation" data-cites="wilkinson2016">(<a href="#ref-wilkinson2016" role="doc-biblioref">Wilkinson et al., 2016</a>)</span>. Originally developed as guiding principles for scientific data management and stewardship <span class="citation" data-cites="wilkinson2016">(<a href="#ref-wilkinson2016" role="doc-biblioref">Wilkinson et al., 2016</a>)</span>, the FAIR principles are equally applicable to other types of scientific outputs, including teaching materials <span class="citation" data-cites="garcia2020">(see, e.g., <a href="#ref-garcia2020" role="doc-biblioref">Garcia et al., 2020</a>)</span>. While some general recommendations exist on how to make teaching materials FAIR and reproducible <span class="citation" data-cites="garcia2020">(see, e.g., <a href="#ref-garcia2020" role="doc-biblioref">Garcia et al., 2020</a>)</span>, specific guidelines, practical examples or tools for concrete implementation are scarce. The goal of this project is to develop a concrete approach to implement the development of FAIR and reproducible teaching materials, pilot this approach in a concrete learning setting at University of Hamburg, as well as evaluate and document the experiences as guidelines for other researchers.</p>
 </section>
@@ -215,11 +228,15 @@ Overview of implementation plan
 <h2 class="anchored" data-anchor-id="description-of-the-situation-and-equipment-of-the-university">Description of the situation and equipment of the university</h2>
 <p>Teaching is a central pillar of any university and in particular at the University of Hamburg with its motto: “Der Forschung, Der Lehre, Der Bildung” (“To research, to teach, to educate and form”). In winter semester 2022/2023, more than 40,000 students (including doctoral students and students on academic leave) were enrolled at University of Hamburg in 75 bachelor’s programs and 89 master’s programs (for details, see <a href="https://www.uni-hamburg.de/en/uhh/profil/fakten.html">facts and figures on the university homepage</a>). It becomes evident that this involves a lot of teaching and therefore time that is spent to create learning resources. The University of Hamburg provides platforms that support the development and distribution of teaching materials within the university.</p>
 <p>Since 2009, the University of Hamburg uses <a href="{{< var links.openolat-uhh-link >}}">OpenOlat</a>, a teaching and learning platform for comprehensive eLearning courses. OpenOlat is the teaching and learning platform for comprehensive digital teaching offerings. OpenOlat supports university teacher in daily tasks and workflows with tools for information provision, event organization and communication. It is particularly suitable for supplementing courses with a wide range of learning and exercise materials and for using digital examination formats.</p>
-<p>To examine, the effectiveness of OpenOlat for the implemenatarion of FAIR principles and reproducibilty, we considered all entries assigned to the Institute of Psychology at the Department for Psychology and Human Movement Science. At the time of writing this proposal, for this institution OpenOlat listed 21 entries in total (see <a href="#fig-open-olat">Figure&nbsp;1</a>). Of these 21 entries, 8 entries (ca. 40%) included relevant metadata, like the semester when the course took place. Strikingly, only 2 of 21 (ca. 10%) of the learning resources were available without access limitations (for example, password protection with an access code). While it is possible that different users get access to different resources (for example, students might have access to more learning resources than staff), it is probably fair to say to say that only a minority of learning resources are readily available for reuse and extension. In this example, those materials that are available are typically slides in PDF format. While the accessibility of learning resources is always betters than no accessibility, opportunities for easy reuse and extensions are limited with PDF format. Together, this example illustrates the broader point made in the project background that learning resources are not readily available and if they are available, come in formats that are limited with respect to reuse and extension.</p>
-<div id="fig-open-olat" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="images/open-olat-screenshot.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figure&nbsp;1: Screenshot of the OpenOlat portal when filtering for educational resources assigned to the Institute of Psychology</figcaption>
+<p>To examine, the effectiveness of OpenOlat for the implemenatarion of FAIR principles and reproducibilty, we considered all entries assigned to the Institute of Psychology at the Department for Psychology and Human Movement Science. At the time of writing this proposal, for this institution OpenOlat listed 21 entries in total (see <a href="#fig-open-olat" class="quarto-xref">Figure&nbsp;1</a>). Of these 21 entries, 8 entries (ca. 40%) included relevant metadata, like the semester when the course took place. Strikingly, only 2 of 21 (ca. 10%) of the learning resources were available without access limitations (for example, password protection with an access code, indicated by the <i class="fa-solid fa-key" aria-label="key"></i> icon). While it is possible that different users get access to different resources (for example, students might have access to more learning resources than staff), it is probably fair to say to say that only a minority of learning resources are readily available for reuse and extension. In this example, those materials that are available are typically slides in PDF format. While the accessibility of learning resources is always betters than no accessibility, opportunities for easy reuse and extensions are limited with PDF format. Together, this example illustrates the broader point made in the project background that learning resources are not readily available and if they are available, come in formats that are limited with respect to reuse and extension.</p>
+<div id="fig-open-olat" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-open-olat-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/open-olat-screenshot.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-open-olat-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Screenshot of the OpenOlat portal when filtering for educational resources assigned to the Institute of Psychology
+</figcaption>
 </figure>
 </div>
 <p>Another infrastructure offered by University of Hamburg is a search portal for teaching called “Lehre-Navi” (<a href="https://www.uni-hamburg.de/lehre-navi.html" class="uri">https://www.uni-hamburg.de/lehre-navi.html</a>). The “Lehre-Navi” portal was designed by the DUTy (Digital University Teaching Literacy) team in the “Digital and Data University Teaching Literacy” (DDLitLab) project at University of Hamburg, but is largely based on the material and services already provided elsewhere at the university. These offerings - as well as general information for teachers - are brought together on the Lehre-Navi platform. Again, while the Lehre-Navi platform offers a great diversity of open learning resources, from technical instructions and text to audio and video recordings, these materials do not offer mechanisms to effectively reuse and extend the materials.</p>
@@ -314,12 +331,9 @@ Overview of implementation plan
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-baker2016" class="csl-entry" role="listitem">
 Baker, M. (2016). 1,500 scientists lift the lid on reproducibility. <em>Nature</em>, <em>533</em>(7604), 452–454. <a href="https://doi.org/10.1038/533452a">https://doi.org/10.1038/533452a</a>
-</div>
-<div id="ref-opensciencecollaboration2015" class="csl-entry" role="listitem">
-Collaboration, O. S. (2015). Estimating the reproducibility of psychological science. <em>Science</em>, <em>349</em>(6251). <a href="https://doi.org/10.1126/science.aac4716">https://doi.org/10.1126/science.aac4716</a>
 </div>
 <div id="ref-crüwell2023" class="csl-entry" role="listitem">
 Crüwell, S., Apthorp, D., Baker, B. J., Colling, L., Elson, M., Geiger, S. J., Lobentanzer, S., Monéger, J., Patterson, A., Schwarzkopf, D. S., Zaneva, M., &amp; Brown, N. J. L. (2023). What<span>’</span>s in a Badge? A Computational Reproducibility Investigation of the Open Data Badge Policy in One Issue of <span><em>Psychological Science</em></span>. <em>Psychological Science</em>, <em>34</em>(4), 512–522. <a href="https://doi.org/10.1177/09567976221140828">https://doi.org/10.1177/09567976221140828</a>
@@ -335,6 +349,9 @@ Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., 
 </div>
 <div id="ref-obels2020" class="csl-entry" role="listitem">
 Obels, P., Lakens, D., Coles, N. A., Gottfried, J., &amp; Green, S. A. (2020). Analysis of Open Data and Computational Reproducibility in Registered Reports in Psychology. <em>Advances in Methods and Practices in Psychological Science</em>, <em>3</em>(2), 229–237. <a href="https://doi.org/10.1177/2515245920918872">https://doi.org/10.1177/2515245920918872</a>
+</div>
+<div id="ref-opensciencecollaboration2015" class="csl-entry" role="listitem">
+Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. <em>Science</em>, <em>349</em>(6251). <a href="https://doi.org/10.1126/science.aac4716">https://doi.org/10.1126/science.aac4716</a>
 </div>
 <div id="ref-plomp2023" class="csl-entry" role="listitem">
 Plomp, E., &amp; Wittkuhn, L. (2023). <em>Reproducible and FAIR teaching materials</em>. Zenodo. <a href="https://doi.org/10.5281/ZENODO.8296951">https://doi.org/10.5281/ZENODO.8296951</a>
@@ -491,10 +508,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   if (showAllCode) {
     showAllCode.addEventListener("click", toggleCodeHandler(true));
   }
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/lnnrtwttkhn\.github\.io\/fair-teaching-proposal\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -504,8 +543,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -517,7 +565,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -561,6 +732,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -586,6 +758,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -643,23 +841,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("https:\/\/lnnrtwttkhn\.github\.io\/fair-teaching-proposal\/");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-      }
-    }
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
