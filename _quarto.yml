@@ -62,3 +62,4 @@ format:
     include-in-header:
       - text: |
           \usepackage{style}
+  docx: default

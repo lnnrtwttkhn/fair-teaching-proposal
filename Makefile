@@ -6,8 +6,12 @@ preview:
 	quarto preview index.qmd
 
 .PHONY: render
-render:
+render: csl
 	quarto render index.qmd
+	
+.PHONY: docx
+docx:
+	quarto render --to docx    	
 	
 .PHONY: deploy
 deploy: clean csl
