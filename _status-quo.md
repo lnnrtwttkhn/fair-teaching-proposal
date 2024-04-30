@@ -13,7 +13,7 @@ It is particularly suitable for supplementing courses with a wide range of learn
 To examine, the effectiveness of OpenOlat for the implemenatarion of FAIR principles and reproducibilty, we considered all entries assigned to the Institute of Psychology at the Department for Psychology and Human Movement Science.
 At the time of writing this proposal, for this institution OpenOlat listed 21 entries in total (see @fig-open-olat).
 Of these 21 entries, 8 entries (ca. 40%) included relevant metadata, like the semester when the course took place.
-Strikingly, only 2 of 21 (ca. 10%) of the learning resources were available without access limitations (for example, password protection with an access code).
+Strikingly, only 2 of 21 (ca. 10%) of the learning resources were available without access limitations (for example, password protection with an access code, indicated by the {{< fa key >}} icon).
 While it is possible that different users get access to different resources (for example, students might have access to more learning resources than staff), it is probably fair to say to say that only a minority of learning resources are readily available for reuse and extension.
 In this example, those materials that are available are typically slides in PDF format.
 While the accessibility of learning resources is always betters than no accessibility, opportunities for easy reuse and extensions are limited with PDF format.
