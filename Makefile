@@ -14,8 +14,9 @@ deploy: clean csl
 	quarto publish gh-pages
 
 .PHONY: csl
-cls:
-	wget https://github.com/citation-style-language/styles/blob/master/apa.csl
+csl:
+	rm -rf *.csl
+	wget https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
 
 .PHONY: clean
 clean:
