@@ -15,13 +15,8 @@ The contents of this proposal are available under a [{{< var project.license-lon
 :::
 
 {{< include _project-information.md >}}
-\newpage
 {{< include _project-description.md >}}
-\newpage
 {{< include _status-quo.md >}}
-\newpage
 {{< include _target-group.md >}}
-\newpage
 {{< include cost-justification.qmd >}}
-\newpage
 {{< include references.qmd >}}
