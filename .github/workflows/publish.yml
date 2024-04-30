@@ -26,10 +26,19 @@ jobs:
         with:
           r-version: '4.3.1'
 
+      - name: Install additional Ubuntu packages
+        run: |
+          sudo apt-get update
+          sudo apt -y install libcurl4-openssl-dev unzip wget
+
       - name: Install R Dependencies
         uses: r-lib/actions/setup-renv@v2
         with:
           cache-version: 1
+          
+      - name: Download CSL
+        run: |
+          make csl
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2

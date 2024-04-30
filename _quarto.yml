@@ -21,6 +21,7 @@ author:
     - ref: uhh-psych
 
 bibliography: references.bib
+csl: apa.csl
 metadata-files:
   - _affiliations.yml
   - _costs.yml
