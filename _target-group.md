@@ -2,7 +2,7 @@
 
 There are two main target groups of the proposed project: research staff and students.
 
-The first main target group of the project are research staff at the Institute of Psychology at the University of Hamburg who are involved in teaching.
+One main target group of the project are research staff at the Institute of Psychology at the University of Hamburg who are involved in teaching.
 Our project aims to develop and pilot a new approach to the development of teaching materials.
 As described in the [implementation plan](#implementation-plan), we plan to involve research staff in the following way:
 First, we will offer workshops on how to create FAIR and reproducible teaching materials using Quarto and Git.
@@ -15,7 +15,7 @@ Extensive methodological and statistical skills are taught in required modules.
 The degree program places special emphasis on methods, which are taught in depth in complementary basic research modules, applied modules, a project seminar, and a thesis module.
 
 Implementing open and FAIR teaching development will give students the opportunity to participate in the development of their own teaching materials.
-While students can view and directly contribute to the teaching materials as they are developed, they can also participate in the development of educational resources by contributing feedback on the course contents, for example by reporting ideas or issues through a dedicated feedback system that is integrated with the course contents.
+While students can view and directly contribute to the teaching materials as they are developed, they can also participate in the development of educational resources by contributing feedback on the course contents, for example by sharing ideas or reporting issues through a dedicated feedback system that is integrated with the course contents.
 For example, in a previous course a student reported a problem with an online quiz that was used to assess course participant's knowledge about the learning materials (see [here](https://github.com/lnnrtwttkhn/version-control-survey/issues/28)).
 The course instructors could then respond to the issue directly and link it to the update in the course materials that solve the issue.
 This provides transparency to the student who can see when and how the issue was resolved but also allows future users of the materials to establish provenance and understand why a certain change in the course materials was implemented.
