@@ -5,3 +5,8 @@
 *.docx
 .Rhistory
 *.xltx
+*.tex
+*.log
+*.html
+*.svg
+*.csl

@@ -20,6 +20,8 @@ author:
   affiliations:
     - ref: uhh-psych
 
+bibliography: references.bib
+csl: apa.csl
 metadata-files:
   - _affiliations.yml
   - _costs.yml
@@ -36,9 +38,7 @@ format:
     toc-title: "Contents"
     toc-expand: true
     number-sections: false
-    cap-location: margin
-    fig-cap-location: margin
-    tbl-cap-location: margin
+    cap-location: bottom
     page-layout: article
     code-fold: true
     code-overflow: wrap
@@ -47,7 +47,7 @@ format:
     code-link: false
     code-annotations: true
     code-tools:
-      source: https://github.com/lnnrtwttkhn/fair-teaching-application
+      source: https://github.com/lnnrtwttkhn/fair-teaching-proposal
       toggle: true
       caption: "Code"
     engine: knitr
@@ -59,3 +59,7 @@ format:
     include-after-body: plausible.html
   pdf:
     toc: false
+    include-in-header:
+      - text: |
+          \usepackage{style}
+  docx: default

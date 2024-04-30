@@ -1,17 +1,26 @@
 application-documents-wittkuhn.pdf: docs/index.pdf
 	cp docs/index.pdf application-documents-wittkuhn.pdf
 
-.PHONY: preview
+.PHONY: preview csl
 preview:
-	quarto preview
+	quarto preview index.qmd
 
 .PHONY: render
-render:
+render: csl
 	quarto render index.qmd
 	
+.PHONY: docx
+docx:
+	quarto render --to docx    	
+	
 .PHONY: deploy
-deploy: clean
+deploy: clean csl
 	quarto publish gh-pages
+
+.PHONY: csl
+csl:
+	rm -rf *.csl
+	wget https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
 
 .PHONY: clean
 clean:
