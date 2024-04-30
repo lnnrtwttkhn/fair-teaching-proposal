@@ -7,6 +7,7 @@ doi: "{{< var project.doi >}}"
 ---
 
 ::: {.callout-note title="About this document"}
+This is an application for the [Claussen-Simon-Fonds für Wissenschaft & Hochschule](https://www.claussen-simon-stiftung.de/de/wissenschaft-hochschule/claussen-simon-fonds-wissenschaft-hochschule/).
 An online version of this application is available at [{{< var project.website >}}]({{< var project.website >}}).
 A PDF version of this application is archived on Zenodo at [{{< var project.doi-link >}}]({{< var project.doi-link >}}).
 The source code of this application is available on GitHub at [{{< var project.github >}}]({{< var project.github >}}).
