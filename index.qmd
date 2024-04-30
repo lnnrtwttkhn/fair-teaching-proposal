@@ -16,6 +16,7 @@ For questions, feedback or any other comments, please open an issue on GitHub at
 :::
 
 {{< include _project-information.md >}}
+\newpage
 {{< include _project-description.md >}}
 {{< include _status-quo.md >}}
 {{< include _target-group.md >}}

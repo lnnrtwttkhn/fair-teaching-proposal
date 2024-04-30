@@ -17,9 +17,9 @@ The degree program places special emphasis on methods, which are taught in depth
 Implementing open and FAIR teaching development will give students the opportunity to participate in the development of their own teaching materials.
 While students can view and directly contribute to the teaching materials as they are developed, they can also participate in the development of educational resources by contributing feedback on the course contents, for example by sharing ideas or reporting issues through a dedicated feedback system that is integrated with the course contents.
 For example, in a previous course a student reported a problem with an online quiz that was used to assess course participant's knowledge about the learning materials (see [here](https://github.com/lnnrtwttkhn/version-control-survey/issues/28)).
-The course instructors could then respond to the issue directly and link it to the update in the course materials that solve the issue.
+The course instructors could then respond to the issue directly and link it to the update in the course materials that eventually solved the issue.
 This provides transparency to the student who can see when and how the issue was resolved but also allows future users of the materials to establish provenance and understand why a certain change in the course materials was implemented.
-This enables them to reflect on increasingly digital and data-driven economic and societal processes and thus promotes participatory "self-empowered citizenship".
+This also enables students to reflect on increasingly digital and data-driven economic and societal processes and thus promotes participatory "self-empowered citizenship".
 
 As described in the [implementation plan](#implementation-plan), we will pilot the introduction of FAIR and reproducible teaching methods, in courses that focus on teaching digital research skills that will be offered to MSc and PhD students at the Institute of Psychology.
 We will evaluate the impact of our proposed approach from a student approach that will complement the feedback from the teachers (see above) and help us to further refine the proposed teaching approach.
