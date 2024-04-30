@@ -10,7 +10,7 @@ OpenOlat is the teaching and learning platform for comprehensive digital teachin
 The platform supports university teacher in daily tasks and workflows with tools for information provision, event organization and communication.
 It is particularly suitable for supplementing courses with a wide range of learning and exercise materials and for using digital examination formats.
 
-To examine, the effectiveness of OpenOlat for the implemenatation of FAIR principles and reproducibilty, we considered all entries assigned to the Institute of Psychology at the Department for Psychology and Human Movement Science.
+To examine, the effectiveness of OpenOlat for the implementation of FAIR principles and reproducibility, we considered all entries assigned to the Institute of Psychology at the Department for Psychology and Human Movement Science.
 At the time of writing this proposal, for this institution OpenOlat listed 21 entries in total (see @fig-open-olat).
 Of these 21 entries, 8 entries (ca. 40%) included relevant metadata, like the semester when the course took place.
 Strikingly, only 2 of 21 (ca. 10%) of the learning resources were available without access limitations (for example, password protection with an access code, indicated by the {{< fa key >}} icon).
