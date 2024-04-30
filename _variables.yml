@@ -22,6 +22,8 @@ links:
   gitlab: "[GitLab]({{< var links.gitlab-link >}})"
   gitlab-uhh-link: "https://gitlab.rrz.uni-hamburg.de/users/sign_in"
   gitlab-uhh: "[GitLab UHH]({{< var links.gitlab-uhh-link >}})"
+  codeberg-link: "https://codeberg.org/"
+  codeberg: "[Codeberg]({{< var links.codeberg-link >}})"
   posit-link: "https://posit.co/"
   posit: "[Posit]({{< var links.posit-link >}})"
   openolat-uhh-link: "https://www.uni-hamburg.de/elearning/werkzeuge/lernplattformen/openolat.html"

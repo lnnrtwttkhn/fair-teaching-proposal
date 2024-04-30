@@ -37,3 +37,4 @@ While platforms like {{< var links.github >}} offer more than enough functionali
 Here, the University of Hamburg offers an instance of the Git repository hosting platform GitLab (see [{{< var links.gitlab-uhh-link >}}]({{< var links.gitlab-uhh-link >}})).
 For details in German see here: <https://www.rrz.uni-hamburg.de/services/datenhaltung/repositories/gitlab.html>
 Together, the tools at the center of our proposed approach are readily available to researcher and can be easily integrated with existing infrastructure provided by the University of Hamburg.
+Finally, the proposal fruitfully links up to the university's ambitious [digital strategy](https://www.kus.uni-hamburg.de/en/themen/digitalisierung-it/digitalstrategie.html) that aims to drive digitalization in research and teaching.

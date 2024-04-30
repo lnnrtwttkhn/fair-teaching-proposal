@@ -10,7 +10,7 @@ Second, we will support teaching research staff in the implementation of the pro
 Third, we will conduct surveys and structured interviews with research staff to evaluate our novel teaching approach and identify potential pitfalls and further opportunities for improvement.
 
 The second main target group are MSc and PhD students at the Institute of Psychology at the University of Hamburg.
-In particular, the Master of Science in Psychology is a consecutive program that is strongly research-oriented.
+In particular, the Master of Science in Psychology is a new consecutive program that is international and strongly research-oriented.
 Extensive methodological and statistical skills are taught in required modules.
 The degree program places special emphasis on methods, which are taught in depth in complementary basic research modules, applied modules, a project seminar, and a thesis module.
 

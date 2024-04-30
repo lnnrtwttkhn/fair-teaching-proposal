@@ -34,7 +34,7 @@ The goal of this project is to develop a concrete approach to implement the deve
 :::
 
 In the proposed project, we will develop a framework for creating open educational resources (OER) in a transparent, reproducible fashion, in line with FAIR principles [@wilkinson2016] using the open-source software tools {{< var links.quarto >}} and {{< var links.git >}}.
-First, we will develop the framework in the form of a manual with concrete recommendations and templates to implement FAIR and reproducible teaching using Quarto and Git [for preparatory work, see e.g., @plomp2023).
+First, we will develop the framework in the form of a manual with concrete recommendations and templates to implement FAIR and reproducible teaching using Quarto and Git [for preparatory work, see e.g., @plomp2023].
 Next, we will implement this framework in a concrete teaching project (for example, a seminar) at University of Hamburg during the winter semester 2024/25.
 In addition, we will offer research staff at the home institution (Institute of Psychology at University of Hamburg) opportunities to learn about both Quarto and Git, with a specific focus on encouraging attendees to create their own open educational resources (for example, websites, presentations and online surveys).
 This will allow lecturers to implement FAIR principles and reproducibility in their own teaching.
@@ -61,7 +61,7 @@ Users can take snapshots (called "commits") of the repository at any time.
 This allows to know the history of changes and understand what was changed when and by whom.
 Further, users can compare commits and go back to any previous state of their repository.
 In addition, Git allows to work on parallel versions (called "branches") and flexibly integrate (or "merge") them.
-Repository hosting services like GitHub, GitLab, BitBucket or Codeberg extend the benefits of version control by aspects of collaboration.
+Repository hosting services like {{< var links.github >}}, {{< var links.gitlab >}} or {{< var links.codeberg >}} extend the benefits of version control by aspects of collaboration.
 Repositories can be uploaded (or "pushed") to an online repository hosting service (called a "remote") and shared either with a group of trusted collaborators, or made publicly available to anyone.
 This allows several researchers to work on the same files at the same time.
 Others can read, copy, edit and suggest changes.
